@@ -5,10 +5,9 @@ categories:
   - Python
 ---
 
-#꼼꼼맨을 위한 python for 문 정리 
-우선, Python에서 for loop를 돌릴 수 있는 자료형은 int, float 등 단일 변수에 대해서는 당연히 가능하나 
-list, tuple, dict,, series 등에 대해서는 헷갈려 정리 하였다. 
-추가로, for in range (), for in enumerate() 도 기술하였다. 
+## 꼼꼼맨을 위한 python for 문 정리 
+>우선, Python에서 for loop를 돌릴 수 있는 자료료형 중 list, tuple, dict,, series 등에 대해 
+>헷갈려 정리 하였다. 추가로, for in range (), for in enumerate() 도 기술하였다. 
 1. 숫자형
 2. 문자열
 3. 리스트
