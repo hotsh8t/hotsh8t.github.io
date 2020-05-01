@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings트
 locale                   : "en-US"
-title                    : "SNACK OVERFLOW >_<"
-title_separator          : "-"
+title                    : "SNACK OVERFLOW "
+title_separator          : "="
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "꼼꼼맨 "
+name                     : "꼼꼼맨>_< "
 description              : "꼼꼼맨이 작성하는 amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "IMMS MAN"
   avatar           : #"/assets/images/profile/profile.jpg" # path of avatar image
-  bio              : "핫샷노트 :<br> 공부한 것을 꼼꼼하게 복습하고자 하는 (곧)데이터사이언티스트 입니다."
+  bio              : "핫샷노트 :<br> 공부한 것을 꼼꼼하게 복습하고자 하는 (곧)데이터사이언티스트의 블로그입니다. 시작은 미약하지만 천천히 수정해 나가면서 보완하고 업데이트 할 예정입니다."
   location         : "Somewhere from Korea"
   email            :  
   links:
