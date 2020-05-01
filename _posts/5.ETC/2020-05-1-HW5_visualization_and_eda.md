@@ -31,9 +31,9 @@ print(len(df_covid))
 df_covid.head()
 ```
 
-
+`
 212
-
+`
 
 
 
@@ -264,9 +264,9 @@ sns.heatmap(df_covid.isnull(), cbar=False)
 plt.show()
 ```
 
-
+`
 duplicated data?: 0
-
+`
 
 
 ![output_8_1](https://user-images.githubusercontent.com/64456846/80827879-62578880-8c1f-11ea-8bf0-0d0c2932170b.png)
@@ -288,9 +288,9 @@ sns.heatmap(df_covid.isnull(), cbar=False)
 plt.show()
 ```
 
-
+`
 NaN of 'Tot_cases_per_1Mpop': 0
-
+`
 
 
 ![output_9_1](https://user-images.githubusercontent.com/64456846/80827906-6d121d80-8c1f-11ea-9f67-9f3497289514.png)
@@ -883,11 +883,12 @@ plt.show()
 ![output_23_1](https://user-images.githubusercontent.com/64456846/80828143-ba8e8a80-8c1f-11ea-8418-a85f2af19889.png)
 
 
+`
 #### 결론
 * North America(미국) 이 다른 나라에 비해 월등하게 높은 감염이 일어나고 있다.   
 * 미국 케이스를 제외하면 total cases 기준 유럽국가들의 사망률(특히 이탈리아)이 높다. 
 * 아시아 국가들(중국, 이란)이 동일 감염case에 대해 recover 되는 확률이 높은 편이다
-
+`
  
 ---
 
