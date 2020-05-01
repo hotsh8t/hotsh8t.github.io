@@ -1,5 +1,5 @@
 ---
-title: " DS: Data Science"
+title: " DS: DATA SCIENCE"
 permalink: /categories/DS
 author_profile: false
 layout: category

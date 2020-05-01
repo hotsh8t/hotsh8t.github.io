@@ -1,5 +1,5 @@
 ---
-title: " ROS: Robot OS"
+title: " ROS: ROBOT OS"
 layout: category
 permalink: /categories/ROS
 author_profile: false

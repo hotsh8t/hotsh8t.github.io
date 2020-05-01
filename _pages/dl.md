@@ -1,5 +1,5 @@
 ---
-title: " DL: Deep Learning" 
+title: " DL: DEEP LEARNING" 
 permalink: /categories/DL
 author_profile: false
 layout: category
