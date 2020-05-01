@@ -1,5 +1,5 @@
 ---
-title: "Seaborn: barplot오 "
+title: "Seaborn: barplot오류 for꼼꼼맨  "
 date: 2020-531
 categories:
   - Python
