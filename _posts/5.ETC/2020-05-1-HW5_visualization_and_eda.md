@@ -31,7 +31,8 @@ print(len(df_covid))
 df_covid.head()
 ```
 
-    212
+
+212
 
 
 
@@ -110,7 +111,7 @@ df_covid.head()
       <td>Germany</td>
       <td>134753</td>
       <td>3804</td>
-      <td>72600</td>
+      <td>72600</td>	
       <td>1608.0</td>
       <td>45.0</td>
       <td>Europe</td>
@@ -136,7 +137,7 @@ df_covid.describe()
     }
 
     .dataframe tbody tr th {
-        vertical-align: top;
+        vertical-align: top;    
     }
 
     .dataframe thead th {
@@ -263,7 +264,8 @@ sns.heatmap(df_covid.isnull(), cbar=False)
 plt.show()
 ```
 
-    duplicated data?: 0
+
+duplicated data?: 0
 
 
 
@@ -286,7 +288,8 @@ sns.heatmap(df_covid.isnull(), cbar=False)
 plt.show()
 ```
 
-    NaN of 'Tot_cases_per_1Mpop': 0
+
+NaN of 'Tot_cases_per_1Mpop': 0
 
 
 
@@ -553,11 +556,7 @@ plt.show()
 sns.pairplot(data=df_covid, hue='region')
 plt.show()
 ```
-
-    /home/wia/anaconda3/envs/IMMS2020SPRING/lib/python3.7/site-packages/seaborn/distributions.py:288: UserWarning: Data must have variance to compute a kernel density estimate.
-      warnings.warn(msg, UserWarning)
-
-
+ 
 
 ![output_20_1](https://user-images.githubusercontent.com/64456846/80828058-a64a8d80-8c1f-11ea-8998-41fb81411ff0.png)
 nstead? -->
@@ -878,10 +877,7 @@ df_covid_no_usa = df_covid.drop(df_covid[df_covid['country'] == 'USA'].index)
 sns.pairplot(data=df_covid_no_usa, hue='region')
 plt.show()
 ```
-
-    /home/wia/anaconda3/envs/IMMS2020SPRING/lib/python3.7/site-packages/seaborn/distributions.py:288: UserWarning: Data must have variance to compute a kernel density estimate.
-      warnings.warn(msg, UserWarning)
-
+ 
 
 
 ![output_23_1](https://user-images.githubusercontent.com/64456846/80828143-ba8e8a80-8c1f-11ea-8418-a85f2af19889.png)
