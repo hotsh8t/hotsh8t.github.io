@@ -1,13 +1,13 @@
 # main links
 main:
    - title: "ROS"
-     url: https://mmistakes.github.io/minimal-mistakes/about/
+     url: /categories/ROS
    - title: "ML"
-     url: /year-archive/
+     url: /categories/ML
    - title: "DL"
-     url: /collection-archive/
+     url: /categories/DL
    - title: "DS"
-     url: /sitemap/
+     url: /categories/DS
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
