@@ -892,6 +892,8 @@ plt.show()
 * 미국 케이스를 제외하면 total cases 기준 유럽국가들의 사망률(특히 이탈리아)이 높다. 
 * 아시아 국가들(중국, 이란)이 동일 감염case에 대해 recover 되는 확률이 높은 편이다
 
+
+![output_23_1](https://user-images.githubusercontent.com/64456846/80828143-ba8e8a80-8c1f-11ea-8418-a85f2af19889.png)
 ---
 
  
