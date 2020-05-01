@@ -14,13 +14,13 @@
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
-# Site Settings
+# Site Settings트
 locale                   : "en-US"
-title                    : "SNACK OVERFLOW"
+title                    : "SNACK OVERFLOW >_<"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "hotshot"
-description              : "꼼꼼맨을 위한 An amazing website."
+name                     : "꼼꼼맨 "
+description              : "꼼꼼맨이 작성하는 amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -93,11 +93,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "IMMS Man"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am a super **amazing** person."
+  name             : "IMMS MAN"
+  avatar           : "/assets/images/profile.jpg" # path of avatar image
+  bio              : "핫샷노트"
   location         : "Somewhere from Korea"
-  email            :
+  email            :  
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
