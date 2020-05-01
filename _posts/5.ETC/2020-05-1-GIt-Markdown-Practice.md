@@ -46,26 +46,30 @@ markdown은 가독성이 좋다
 
 >This is a blockquote
 >>this is a second blockqute .
->>> this is a third
-크 표시법 : [Title](link)
+>>> this is a third  
+링크 표시법 : [Title](link)
 [Google 페이지 링크](https://google.com)
 * 과자
   *라면
-    *사탕
+    *사탕  
 
 | First Header  | Second Header | Third Header         |
 | :------------ | :-----------: | -------------------: |
 | First row     | Data          | Very long data entry |
 | Second row    | **Cell**      | *Cell*               |
 | Third row     | Cell that spans across two columns  ||
-[Table caption, works as a reference][section-mmd-tables-table1]
+[Table caption, works as a reference][section-mmd-tables-table1]  
 
-[홈페이지](portal.kaist.ac.kr)
+[홈페이지](portal.kaist.ac.kr)  
 ![](https://hotsh8t@github.io/assets/images/profile/profile.jpg)
 	
 ![](https://hotsh8t@github.io/assets/images/profile/profile.jpg){:.alien-center}
 
 #![키보드 사진](https://devinlife.com/assets/images/bio-photo-keyboard-small.jpg "내 키보드 사진"){: .align-center}
+
+
+3. 글머리 달기
+====
 
 ```
 마크다운 버전
@@ -76,7 +80,7 @@ markdown은 가독성이 좋다
 ```
 
 |꼼꼼맨|성호|냐옹이|
-|:---:|"---:|:---:|
+|:---:|:---:|:---:|
 |라면|족발|통수육|
 
 
