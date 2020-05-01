@@ -560,7 +560,7 @@ plt.show()
  
 
 ![output_20_1](https://user-images.githubusercontent.com/64456846/80828058-a64a8d80-8c1f-11ea-8998-41fb81411ff0.png)
-nstead? -->
+
 
 
 
