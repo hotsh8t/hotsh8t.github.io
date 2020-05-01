@@ -249,7 +249,7 @@ plt.show()
 ```
 
 
-![png](output_6_0.png)
+![output_6_0](https://user-images.githubusercontent.com/64456846/80827844-5075e580-8c1f-11ea-9b34-c642649bd820.png)
 
 
 #### (2) Plot the distribution(histogram) of total cases per 1M population (Tot_cases_per_1Mpop) using Seaborn package.
@@ -267,8 +267,7 @@ plt.show()
 
 
 
-![png](output_8_1.png)
-
+![output_8_1](https://user-images.githubusercontent.com/64456846/80827879-62578880-8c1f-11ea-8bf0-0d0c2932170b.png)
 
 
 ```python
@@ -291,7 +290,8 @@ plt.show()
 
 
 
-![png](output_9_1.png)
+![output_9_1](https://user-images.githubusercontent.com/64456846/80827906-6d121d80-8c1f-11ea-9f67-9f3497289514.png)
+
 
 
 
@@ -302,7 +302,7 @@ plt.show()
 ```
 
 
-![png](output_10_0.png)
+![output_10_0](https://user-images.githubusercontent.com/64456846/80827933-7a2f0c80-8c1f-11ea-872e-b78eb9f170c4.png)
 
 
 #### (3) Plot the scatter plot according to the following conditions
@@ -429,7 +429,7 @@ plt.show()
 ```
 
 
-![png](output_13_0.png)
+![output_13_0](https://user-images.githubusercontent.com/64456846/80827944-8024ed80-8c1f-11ea-93cb-78a589218023.png)
 
 
 #### (4) Plot the heatmap of correlations among all numerical variables. Which variable (column) is the most correlated with the value "total_cases"?
@@ -526,7 +526,7 @@ plt.show()
 ```
 
 
-![png](output_16_0.png)
+![output_16_0](https://user-images.githubusercontent.com/64456846/80827980-8adf8280-8c1f-11ea-86d7-4910059a6ef8.png)
 
 
 ### 5) Plot the boxplots of mean total_cases according to each "region". 
@@ -540,7 +540,9 @@ plt.show()
 ```
 
 
-![png](output_18_0.png)
+
+![output_18_0](https://user-images.githubusercontent.com/64456846/80828017-95018100-8c1f-11ea-8955-d3208a2f6200.png)
+
 
 
 #### Open question: Can you find any other insight from the data?
@@ -557,7 +559,8 @@ plt.show()
 
 
 
-![png](output_20_1.png)
+![output_20_1](https://user-images.githubusercontent.com/64456846/80828058-a64a8d80-8c1f-11ea-8998-41fb81411ff0.png)
+nstead? -->
 
 
 
@@ -881,7 +884,7 @@ plt.show()
 
 
 
-![png](output_23_1.png)
+![output_23_1](https://user-images.githubusercontent.com/64456846/80828143-ba8e8a80-8c1f-11ea-8418-a85f2af19889.png)
 
 
 #### 결론
