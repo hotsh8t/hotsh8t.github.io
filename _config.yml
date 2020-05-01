@@ -94,8 +94,8 @@ analytics:
 # Site Author
 author:
   name             : "IMMS MAN"
-  avatar           : "/assets/images/profile.jpg" # path of avatar image
-  bio              : "핫샷노트"
+  avatar           : #"/assets/images/profile/profile.jpg" # path of avatar image
+  bio              : "핫샷노트 :<br> 공부한 것을 꼼꼼하게 복습하고자 하는 (곧)데이터사이언티스트 입니다."
   location         : "Somewhere from Korea"
   email            :  
   links:
