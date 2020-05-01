@@ -1,8 +1,9 @@
 ---
-title: "ML :Machine Learning"
-#layout: categories
+title: " ML: Machine Learning"
 permalink: /categories/ML
-author_profile: true
-taxonomy: 머신러닝
+author_profile: false
+layout: category
+taxonomy: ML
 ---
-머신러닝 관련 포스팅입니다. 
+  머신러닝 관련 포스팅
+

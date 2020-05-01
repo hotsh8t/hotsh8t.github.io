@@ -1,8 +1,8 @@
 ---
-title: "ROS :Robot OS"
+title: " ROS: Robot OS"
 layout: category
 permalink: /categories/ROS
-author_profile: true
+author_profile: false
 taxonomy: ROS
 ---
-ROS(로봇OS) 관련 포스팅입니다. 
+  ROS(로봇OS) 관련 포스팅

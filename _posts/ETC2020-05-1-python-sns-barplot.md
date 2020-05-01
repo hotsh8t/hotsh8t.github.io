@@ -1,8 +1,12 @@
 ---
 title: "Seaborn: barplot오류 for꼼꼼맨  "
-date: 2020-531
+date: 2020-5-1
 categories:
-  - Python
+  - ETC
+tag:
+  - seaborn
+  - python
+
 ---
 
 ## 꼼꼼맨을 류위한 sns.barplot 오류 정리  

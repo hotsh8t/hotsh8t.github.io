@@ -3,11 +3,13 @@ main:
    - title: "ROS"
      url: /categories/ROS
    - title: "ML"
+     url: /categories/DL
+   - title: "DS"
      url: /categories/ML
    - title: "DL"
      url: /categories/DL
-   - title: "DS"
-     url: /categories/DS
+   - title: "ETC"
+     url: /categories/ETC
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"

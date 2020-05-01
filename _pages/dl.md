@@ -1,7 +1,10 @@
 ---
-title: "DL:Deep Learning"
-#layout: categories/DL
+title: " DL: Deep Learning" 
 permalink: /categories/DL
-author_profile: true
+author_profile: false
+layout: category
+taxonomy: DL
 ---
-DL(딥러닝)관련 포스팅입니다. 
+  DL(딥러닝)관련 포스팅
+ 
+

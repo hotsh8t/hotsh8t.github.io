@@ -1,8 +1,11 @@
 ---
 title: "Python: for loop 사용 완벽정리 "
-date: 2020-531
+date: 2020-5-1
 categories:
+  - DS
+tags:
   - Python
+  - DS
 ---
 
 ## 꼼꼼맨을 위한 python for 문 정리 

@@ -1,6 +1,12 @@
 ---
 title: "Markdown 언어 연습  "
 
+categories:
+  - ETC
+tags:
+  - ETC
+  - git
+
 excerpt: "excerpt에 내용을 입력하면 뭐라고 나올까."
 toc: true
 toc_sticky: true
