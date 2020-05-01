@@ -37,7 +37,8 @@ markdown은 가독성이 좋다
 다섯번째로 ~~cancel line~~  
 
 2.2 글머리 달기
-----
+----	
+
 #This is a H1  
 ##This is a H2  
 ###This is a H3  
@@ -47,11 +48,13 @@ markdown은 가독성이 좋다
 >This is a blockquote
 >>this is a second blockqute .
 >>> this is a third  
+
 링크 표시법 : [Title](link)
 [Google 페이지 링크](https://google.com)
 * 과자
   *라면
     *사탕  
+
 
 | First Header  | Second Header | Third Header         |
 | :------------ | :-----------: | -------------------: |
@@ -68,7 +71,7 @@ markdown은 가독성이 좋다
 #![키보드 사진](https://devinlife.com/assets/images/bio-photo-keyboard-small.jpg "내 키보드 사진"){: .align-center}
 
 
-3. 글머리 달기
+3.글머리 달기
 ====
 
 ```
