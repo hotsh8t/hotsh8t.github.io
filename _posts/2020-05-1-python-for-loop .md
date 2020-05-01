@@ -1,6 +1,6 @@
 ---
 title: "Python: for loop 사용 완벽정리 "
-date: 2020-5-1
+#date: 2020-5-1
 categories:
   - DS
 tags:
