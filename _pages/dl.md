@@ -1,6 +1,6 @@
 ---
 title: "DL:Deep Learning"
-layout: categories/DL
+#layout: categories/DL
 permalink: /categories/DL
 author_profile: true
 ---

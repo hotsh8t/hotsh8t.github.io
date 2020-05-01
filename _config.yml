@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "IMMS MAN"
   avatar           : "/assets/images/profile/profile.jpg" # path of avatar image
-  bio              : "핫샷노트 :<br> 공부한 것을 꼼꼼하게 복습하는 (후루꾸)데이터사이언티스트의 기술블로그입니다. <br> 후루꾸 탈피를 위해!"
+  bio              : "핫샷노트 :<br> 공부한 것을 꼼꼼하게 복습하는 <br> (후루꾸)연구원 & 데이터 사이언티스트 & 경영학도의 기술블로그 <br> 후루꾸 탈피를 위해!"
   location         : "Somewhere from Korea"
   email            :  
   links:

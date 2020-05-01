@@ -1,7 +1,7 @@
 ---
 title: "DS:Data Science"
 layout: categories
-permalink: /categories/DS
+#permalink: /categories/DS
 author_profile: true
 taxonomy: DS
 ---

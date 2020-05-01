@@ -1,6 +1,6 @@
 ---
 title: "ML :Machine Learning"
-layout: categories
+#layout: categories
 permalink: /categories/ML
 author_profile: true
 taxonomy: 머신러닝

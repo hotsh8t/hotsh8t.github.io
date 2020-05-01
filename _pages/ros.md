@@ -1,6 +1,6 @@
 ---
 title: "ROS :Robot OS"
-layout: categories
+#layout: categories
 permalink: /categories/ROS
 author_profile: true
 taxonomy: ROS
