@@ -5,4 +5,4 @@ permalink: /categories/ROS
 author_profile: false
 taxonomy: ROS
 ---
-  ROS(로봇OS) 관련 포스팅
+  로봇운영체제 관련 포스팅

@@ -2,7 +2,7 @@
 title: "Markdown 언어 연습  "
 
 categories:
-  - ETC
+  - ROS
 tags:
   - ETC
   - git
