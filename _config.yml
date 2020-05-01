@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings트
 locale                   : "en-US"
-title                    : "스테이크오버플로우>_<"
+title                    : "스테이크오버플로우"
 title_separator          : "="
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "꼼꼼맨>_< "
@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "핫샷노트 :"
   avatar           : "/assets/images/profile/profile.jpg" # path of avatar image
-  bio              : "꼼꼼하게 복습하기 위한 기술블로그 <br> 후루꾸 탈피를 위해!"
+  bio              : "꼼꼼하게 복습하기 위한 기술블로그 <br> 후루꾸 탈피를 위해!!!"
   location         : "Somewhere from Korea"
   email            :  
   links:
