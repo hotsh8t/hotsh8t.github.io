@@ -15,8 +15,9 @@ tags:
 1.markdown 특징
 =====
 markdown은 가독성이 좋다
+
 2.마트다운문법
-====
+=====
 기본적인 마크다운 문법 정리
 2.1텍스트 줄 바꿈
 ---
@@ -42,6 +43,7 @@ markdown은 가독성이 좋다
 ###This is a H3  
 ####This is a H4  
 #####This is a H5  
+
 >This is a blockquote
 >>this is a second blockqute .
 >>> this is a third
@@ -50,7 +52,13 @@ markdown은 가독성이 좋다
 * 과자
   *라면
     *사탕
- 
+
+| First Header  | Second Header | Third Header         |
+| :------------ | :-----------: | -------------------: |
+| First row     | Data          | Very long data entry |
+| Second row    | **Cell**      | *Cell*               |
+| Third row     | Cell that spans across two columns  ||
+[Table caption, works as a reference][section-mmd-tables-table1]
 
 [홈페이지](portal.kaist.ac.kr)
 ![](https://hotsh8t@github.io/assets/images/profile/profile.jpg)
@@ -66,6 +74,7 @@ markdown은 가독성이 좋다
 |라면|족발|통수육|
 
 ```
+
 |꼼꼼맨|성호|냐옹이|
 |:---:|"---:|:---:|
 |라면|족발|통수육|
@@ -76,9 +85,7 @@ categories:
   - Python
 
 
- 
-
-
+  
 
 ---
  
