@@ -15,10 +15,12 @@ tags:
 1.markdown 특징
 =====
 markdown은 가독성이 좋다
-#2.마트다운문법
+2.마트다운문법
 ====
 기본적인 마크다운 문법 정리
-##2.1텍스트 줄 바꿈
+2.1텍스트 줄 바꿈
+---
+
 ```
 기본적인 텍스트 표기 방식
 마트다운은 줄바꿈을 인식하지 않는다. 
@@ -26,13 +28,14 @@ markdown은 가독성이 좋다
 줄바꿈을 하기위해서는 라인 끝에 스페이스를 두번  
 표기해야 한다. 
 여러가지 강조 표시가 존재한다. 
+```
 첫번째로 *single asterisks*  
 두번째로 _single undersocres_  
 세번째로 **double asterisks**  
 네번째로 __double underscores__  
 다섯번째로 ~~cancel line~~  
 
-##2.2 글머리 달기
+2.2 글머리 달기
 ----
 #This is a H1  
 ##This is a H2  
