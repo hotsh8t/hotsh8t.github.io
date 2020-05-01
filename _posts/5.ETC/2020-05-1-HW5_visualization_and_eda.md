@@ -1,6 +1,7 @@
 ---
 title: "HW5_visualization_and_eda"
 excerpt: "HW5_visualization_and_eda" 
+author_profile: false
 toc: true
 toc_sticky: true
 categories:
