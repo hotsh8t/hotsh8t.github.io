@@ -8,8 +8,8 @@ main:
      url: /categories/DS
    - title: "DL"
      url: /categories/DL
-   - title: "ETC"
-     url: /categories/ETC
+   - title: "CATEGORY"
+     url: /categories/
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
