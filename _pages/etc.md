@@ -1,9 +1,9 @@
 ---
 title: " Category" 
-permalink: /categories/
+permalink: /categories/ETC
 author_profile: false
 layout: archive
-#taxonomy: ETC
+taxonomy: ETC
 ---
   카테고리 및 기타 포스팅!
  
