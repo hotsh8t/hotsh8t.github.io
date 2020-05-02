@@ -1,10 +1,10 @@
 ---
-title: " ETC" 
-permalink: /categories/ETC
+title: " Category" 
+permalink: /categories/
 author_profile: false
 layout: category
-taxonomy: ETC
+#taxonomy: ETC
 ---
-  기타 포스팅
+  카테고리 및 기타 포스팅
  
 
