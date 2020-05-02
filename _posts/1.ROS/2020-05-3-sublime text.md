@@ -33,13 +33,22 @@ soruce /opt/ros/melodic/setup.bash
 source ~/catkin_ws/devel/setup.bash
 ```
 
-### 1.3 catkin_ws 초기화
-* 반드시 catkin_ws 폴더에서 catkin init 를 해야 한다. 
+### 1.3 sublime text 정상설치 확인 
 
 ``` python
->cd catkin_ws
->cd catkin init
+>~/catkin_ws$ rosed turtlesim Color.msg
 ```
+
+### 1.4 혹시 roseb turtlesim Color.msg 안될시
+`
+* source ~/.bashrc 명령을 한 번 실행 할 것    
+`
+
+``` python
+>source ~/.bashrc
+```
+
+
 
 ` 
 This post is based on [pinkwink](https://github.com/PinkWink) and [wiki.ros](http://wiki.ros.org/rosdep#INstalling_rosdep)
