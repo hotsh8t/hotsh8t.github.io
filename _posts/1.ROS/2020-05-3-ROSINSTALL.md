@@ -1,5 +1,5 @@
 ---
-title: "ROS: ROS와 의존성 문제해결을 위한 rosdep설치"
+title: "ROS: ROS와 rosdep설치"
 excerpt: "HW5_visualization_and_eda" 
 date: 9999-12-31
 categories:
