@@ -1,4 +1,3 @@
-
 ---
 title: "Ubuntu : NVIDIA GPU 드라이버 설치 "
 excerpt: "NVIDIA 드라이버 확인 및 설치 " 
