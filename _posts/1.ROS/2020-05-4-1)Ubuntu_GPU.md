@@ -1,3 +1,4 @@
+
 ---
 title: "Ubuntu : NVIDIA GPU 드라이버 설치 "
 excerpt: "NVIDIA 드라이버 확인 및 설치 " 
@@ -36,10 +37,44 @@ AILAB@AILAB:~$ lspci | grep -i VGA
 00:02.0 VGA compatible controller: Intel Corporation 4th Gen Core Processor Integrated Graphics Controller (rev 06)
 01:00.0 VGA compatible controller: NVIDIA Corporation Device 1f11 (rev a1)
 ```
+### 그래픽 카드 확인 2
+```c
+$ lspci -k
+```
+결과  
+```
+VGA compatible controller: NVIDIA Corporation Device 1f11 (rev a1)
+```
 
+
+### 그래픽카드 설치 여부 확인
+```c
+cat/proc/driver/nvidia/version
+```
+결과 :  NVIDIA 미설치시
+```
+cat:/proc/driver/nvidia/version:No such file or directory
+```
+
+
+
+
+### nouveau 설치 확인 및 제거
+아래 명령어 실행 후 1줄 이상 출력되면 nouveau 가 설치된 환경이다. NVIDIA 정식 드라이버 설치를 위해 삭제 필요 
+
+```C
+$ lsmod |grep nouveau
+```
 
 ### apt-ache search nvidia  
 - 설치 할 수 있는 NVIDIA 그래픽카드 드라이버의 리스트르 보여준다. 
+
+
+
+
+
+
+
 
 
 .1 catkin tools 설치
