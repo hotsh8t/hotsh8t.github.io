@@ -1,4 +1,3 @@
-
 ---
 title: "Ubuntu : 사용중인 유저 및 홈경로명 변경 "
 excerpt: "Ubuntu 계정명 바꾸기 " 
