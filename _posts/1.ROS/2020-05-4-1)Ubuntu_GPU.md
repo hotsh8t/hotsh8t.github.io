@@ -63,7 +63,7 @@ cat:/proc/driver/nvidia/version:No such file or directory
 아래 명령어 실행 후 1줄 이상 출력되면 nouveau 가 설치된 환경이다. NVIDIA 정식 드라이버 설치를 위해 삭제 필요 
 
 ```C
-$ lsmod |grep nouveau
+$ lsmod | grep nouveau
 ```
 
 ### apt-ache search nvidia  
