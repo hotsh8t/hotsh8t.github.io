@@ -1,6 +1,6 @@
 ---
-title: "ROS: CATKIN 설치 "
-excerpt: "CATK치IN" 
+title: "ROS개발환경-2: CATKIN 설치 "
+excerpt: "ROS 개발을 위한 CATKIN설치" 
 date: 9999-12-31
 categories:
   - ROS

@@ -1,5 +1,5 @@
 ---
-title: "ROS개발환경: Sublime text 설치 "
+title: "ROS개발환경-4: Sublime text 설치 "
 excerpt: "ROS 개발을 위한 sublime text 설치" 
 date: 9999-12-31
 categories:

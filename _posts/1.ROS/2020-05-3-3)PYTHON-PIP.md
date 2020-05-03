@@ -1,6 +1,6 @@
 ---
-title: "ROS: CATKIN 설치 "
-excerpt: "PYTHON PIP 설치" 
+title: "ROS개발환경-3: Python 설치 "
+excerpt: "ROS 개발을 위한 PYTHON PIP 설치" 
 date: 2020-5-2
 categories:
   - ROS
