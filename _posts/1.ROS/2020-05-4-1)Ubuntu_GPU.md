@@ -29,7 +29,7 @@ WARNING: you should run this program as super-user.
 ```c
 $ lspci | grep -i VGA
 ```
-실행 결과 
+실행 결과입니다.
  1f11(rev a1)사양은 RTX 2060
 ***
 AILAB@AILAB:~$ lspci | grep -i VGA
