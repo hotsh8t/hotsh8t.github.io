@@ -15,15 +15,15 @@ tag :
 $ sudo lshw -C display
 ```
 실행결과
-```
+~~~~
 AILAB@AILAB:~$ lshw -C display
 WARNING: you should run this program as super-user.
   *-display  
        description: VGA compatible controller
        product: Mars [Radeon HD 8730M]
        vendor: Advanced Micro Devices, Inc. [AMD/ATI]
-       physical id: 0
-```
+      physical id: 0
+~~~~
 
 ### 그래픽 카드 확인 2
 ```c
@@ -31,11 +31,12 @@ $ lspci | grep -i VGA
 ```
 실행 결과 
  1f11(rev a1)사양은 RTX 2060
-```
+***
 AILAB@AILAB:~$ lspci | grep -i VGA
 00:02.0 VGA compatible controller: Intel Corporation 4th Gen Core Processor Integrated Graphics Controller (rev 06)
 01:00.0 VGA compatible controller: NVIDIA Corporation Device 1f11 (rev a1)
-```
+***
+
 ### 그래픽 카드 확인 2
 ```c
 $ lspci -k
