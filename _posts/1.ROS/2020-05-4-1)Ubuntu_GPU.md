@@ -31,11 +31,12 @@ $ lspci | grep -i VGA
 ```
 실행 결과입니다.
  1f11(rev a1)사양은 RTX 2060
-***
+
+****
 AILAB@AILAB:~$ lspci | grep -i VGA
 00:02.0 VGA compatible controller: Intel Corporation 4th Gen Core Processor Integrated Graphics Controller (rev 06)
 01:00.0 VGA compatible controller: NVIDIA Corporation Device 1f11 (rev a1)
-***
+****
 
 ### 그래픽 카드 확인 2
 ```c
