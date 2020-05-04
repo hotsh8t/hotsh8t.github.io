@@ -1,11 +1,11 @@
 ---
-title: "Ubuntu : NVIDIA GPU 드라이버 설치 "
+title: "Ubuntu : NVIDIA GPU 드라이버 설치"
 excerpt: "NVIDIA 드라이버 확인 및 설치 " 
 date: 9999-12-31
 categories:
   - ROS
 tag :
-  - ROS, catkin
+  - ROS, rosdep
 ---
 
 #  NVIDIA GPU 확인방법
@@ -18,7 +18,7 @@ $ sudo lshw -C display
 ```
 AILAB@AILAB:~$ lshw -C display
 WARNING: you should run this program as super-user.
-  *-display                 
+  *-display  
        description: VGA compatible controller
        product: Mars [Radeon HD 8730M]
        vendor: Advanced Micro Devices, Inc. [AMD/ATI]
