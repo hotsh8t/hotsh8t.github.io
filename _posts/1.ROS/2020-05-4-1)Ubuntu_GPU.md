@@ -38,6 +38,14 @@ AILAB@AILAB:~$ lspci | grep -i VGA
 01:00.0 VGA compatible controller: NVIDIA Corporation Device 1f11 (rev a1)
 ****
 
+
+'
+AILAB@AILAB:~$ lspci | grep -i VGA
+00:02.0 VGA compatible controller: Intel Corporation 4th Gen Core Processor Integrated Graphics Controller (rev 06)
+01:00.0 VGA compatible controller: NVIDIA Corporation Device 1f11 (rev a1)
+'
+
+
 ### 그래픽 카드 확인 2
 ```c
 $ lspci -k
