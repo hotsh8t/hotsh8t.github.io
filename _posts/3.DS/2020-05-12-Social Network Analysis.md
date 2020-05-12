@@ -1,6 +1,9 @@
 ---
 title: "SNA : Social Network Analysis"
 date: 9999-12-31
+author_profile: false
+toc: true
+toc_sticky: true
 categories:
   - DS
 tags:
