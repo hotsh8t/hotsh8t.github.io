@@ -2,7 +2,7 @@
 title: "SNA : Social Network Analysis"
 date: 9999-12-31
 categories:
-  - SNA
+  - DS
 tags:
   - DS
   - SNA
@@ -23,8 +23,8 @@ Lecture5-centralities강의콘텐츠
 
 Lecture6-correlated_networks강의콘텐츠
 # 7주차 (4/29)  
-Lecture7-special_topic1
-Lecture7-special_topic1_part1동영상 37:20
+##Lecture7-special_topic1
+##Lecture7-special_topic1_part1동영상 37:20
 Lecture7-special_topic1_part2동영상 10:38
 Lecture7-special_topic1_part3동영상 08:30
 Lecture7-special_topic1_part4동영상 22:01
