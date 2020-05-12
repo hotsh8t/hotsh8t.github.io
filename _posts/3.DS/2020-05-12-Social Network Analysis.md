@@ -32,13 +32,13 @@ Lecture7-special_topic1_part5동영상 16:52
 [Zoom] special topic1_part6동영상 01:06:32
 
 # 8주차 (5/6)  
- Lecture8-bipartite
- Lecture8-bipartite_part1동영상 24:52
- Lecture8-bipartite_part2동영상 19:41
- Lecture8-bipartite-practice동영상 15:47
- Lecture9-community_part1동영상 18:23
- Lecture9-community_part2동영상 22:56
- Lecture9-community-practice동영상 10:07
+## Lecture8-bipartite
+### Lecture8-bipartite_part1동영상 24:52
+#### Lecture8-bipartite_part2동영상 19:41
+#### Lecture8-bipartite-practice동영상 15:47
+##### Lecture9-community_part1동영상 18:23
+##### Lecture9-community_part2동영상 22:56
+### Lecture9-community-practice동영상 10:07
 # 9주차 (5/13)  
  Lecture10-spreading_phenomena1.pdf
  Lecture10-spreading_phenomena1-part1동영상 13:00
