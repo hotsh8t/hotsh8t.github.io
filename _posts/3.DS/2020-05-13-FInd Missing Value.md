@@ -22,21 +22,21 @@ __굵게__
 # isnull() 사용방법
 'isnull을 통해 결측지의 개수를 확인 가능'  
 df.isnull().sum()
-''' python
+``` python
 conda install -c conda-forge missingno
-'''
-
+```
 
 # isnull() 사용방법(진짜)  
-'isnull을 통해 결측지의 개수를 확인 가능'  
+`isnull을 통해 결측지의 개수를 확인 가능`  
 df.isnull().sum()   
 
 
 # missingno 사용
 - 
-''' python
+``` python
 conda install -c conda-forge missingno
-'''
+```
+
 [결측치분석]('https://programmers.co.kr/learn/courses/21/lessons/942')  
 
 # 2주차 (3/25)

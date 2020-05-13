@@ -12,10 +12,16 @@ tags:
 ---
 
 # 모든 결과값을 표현하게 하는 방법  
-'''python
+`**이렇게 또 하나 배웁니다**`
+`*줄들여쓰기를 안했습니다*`
+
+`**이번에는 줄간격을 띄웁니다**`  
+`*성공적으로 엔터입력 실행*`
+
+``` python
 from IPython.core.interactiveshell import InteractiveShell
 InteractiveShell.ast_node_interactivity = "all"
-'''
+```
 
 
 
