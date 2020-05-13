@@ -12,18 +12,18 @@ tags:
 ---
 
 # Jupyter 노트북에 설치된 모든 환경 확인
-'''python
+''' python
 conda info --envs  
 '''
 
 # git
-'''python
+''' python
 git add .
 '''
-'''python
+''' python
 git commit -m"name"
 '''
-'''python
+''' python
 git push origin master
 '''
 
