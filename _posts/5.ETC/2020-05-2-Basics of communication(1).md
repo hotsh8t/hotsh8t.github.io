@@ -38,29 +38,26 @@ tag :
     - 예) (S1, M1) ► (S2, M2),  Telephone  
     - Uses electricity to transmit messages
     - Encoding: sending binaries using signals,  e.g. Inside computers  
-    
+- Analog Voice COmmunication
+    - Microphone captures voice vibrations, converts them to waves than can be expressed through variations of voltage  
+    - Telephone (3000Hz), Hi-Fi Sound (15,000Hz; approximate range of human ear), Compact Disc (20,000Hz for each of two channels)​
 - Digital Communication  
     - Digitization: Information → binary representation
-    
-    
-    
-    
+    - Digital Convergence : Converting all info into binaries
+      Analog(Old info.) + Digitally Capturing -> DIgital information -> Transmission or Storage
 
-## 3. Data(Digital) Communication  
-- The same technologies for transmission regardless the kinds of Information
+## 3. Why Data(Digital) Communication?  
+- The same technologies for transmission **regardless the kinds of Information**
 - **Speed**: Compression​
-- **Cost**: multiplexing (line sharing)	​
-- **Reliability(Quality)**:error detection and correction
+- **Cost**: Multiplexing (line sharing)	​
+- **Reliability(Quality)**: Error detection and correction
 - **Security**: Encryption
 
 ## 4. Kind (Types) of source information
-Voice​
-
-Image​
-
-Video​
-
-Data (Discrete Symbols)
+- Voice​
+- Image​
+- Video​
+- Data (Discrete Symbols)
 
 
 ## 5. Steps for Digital (Data) Communications
@@ -72,18 +69,33 @@ Data (Discrete Symbols)
 
 # [2]. Input (Digitization)  
 ## 1. Binaries
-- DC Calculus 1 : n bits produce 2^n detectable events
-- DC Calculus 2 : $ (X - \mathbb{E}(X)) \, / \, \sqrt{ \mathrm{Var} (X) } $.  
-log<sub>2</sub>x
-윗첨자는 `^` string `^`
-아랫첨자는 `~` string `~`
+- DC Calculus 1 : n bits produce 2<sup>n</sup> detectable events
+- DC Calculus 2 : to represent x alternatives, n=log<sub>2</sub>x  
+- Converting Base Numbers : Deimal(10), Binary(2) and Hexadeciaml(16)
+    - Remainder Rule : Decimal to another base
+    - Summation Rule : Another base number to decimal
+    - Division Rule : Binary to Hexadecimal
+    ![Screenshot from 2020-05-16 07-53-36](https://user-images.githubusercontent.com/64456846/82102394-640a6b80-974a-11ea-84cc-abcafad5c1e4.png)
 
 ## 2. Text DIgitization
+- Binary Conversion from Discrete Symbols​ From Alphanumeric to binaries (Byte)
+- ASCII-8bit, EBCDIC(IBM)
+- Byte (B), Kilobyte (KB), Megabyte (MB), Gigabyte (GB), Terabyte (TB), Petabyte (PB), Exabyte (EB), Zettabyte (ZB), Yottabyte (YB)
 
 ## 3. Audio Digitization
-
+- From Graph(Audio waves)to Coordinates(t1,h1)(t,h2)....
+- Converting Samples to Bits
+    - Quantizing
+        - Similar concept to pixelization in graphic digitization
+    - Breaks wave into pieces, assigns a value in a particular range​
+    - 8-bit range allows for 256 possible sample levels​
+    - More bits means greater detail, fewer bits means less detail​
 - Digital Encoding of Voice
-
+    - Primarily used in retransmission devices
+        - Uses pulse-code modulation (PCM)
+    - The sampling theorem:  S=2F
+        -If a signal is sampled at regular intervals of time and at a rate higher than twice the significant signal frequency, the samples contain all the information of the original signal.
+    - 8000 samples/sec sufficient for 4000hz
 - Sampling Theorem
 
 - Codec
