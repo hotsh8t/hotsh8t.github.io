@@ -11,11 +11,11 @@ tag :
   - ETC
 ---
 
-# BASICS OF Business Data Communication(1)  
 
 # [1]. Definition and models of Data Communication 
 
 ## 1. Data communication?  
+- 역원 제도에서부터 발달함, 
 
 ## 2. Basic concept and Terminology  
 #### 1) Modern Communication Model
@@ -30,17 +30,21 @@ tag :
     Agent -> DTE/DCE -> Medium -> DCE/DTE -> Agent  
             (S1->S2)             (S2->S1)           
     ```  
-
     [DTE] : Data Terminal Equipment  
     [DCE] : Data Communication Equipment
 
-    ```
-    111
-    Analog Comm.  | Digital Comm.|
-    |:---------------|-------------:|
-    |(s1,m1)->(s2,m2)|test          |
-    ```   
-
+#### 2) Farther and Faster
+- Analog Communication  
+    - 예) (S1, M1) ► (S2, M2),  Telephone  
+    - Uses electricity to transmit messages
+    - Encoding: sending binaries using signals,  e.g. Inside computers  
+    
+- Digital Communication  
+    - Digitization: Information → binary representation
+    
+    
+    
+    
 
 ## 3. Data(Digital) Communication  
 - The same technologies for transmission regardless the kinds of Information
