@@ -28,11 +28,11 @@ Lecture6-correlated_networks강의콘텐츠
 # 7주차 (4/29)  
 ##Lecture7-special_topic1
 ##Lecture7-special_topic1_part1동영상 37:20
-Lecture7-special_topic1_part2동영상 10:38
-Lecture7-special_topic1_part3동영상 08:30
-Lecture7-special_topic1_part4동영상 22:01
-Lecture7-special_topic1_part5동영상 16:52
-[Zoom] special topic1_part6동영상 01:06:32
+Lecture7-special_topic1_part2동영상 10:38  
+Lecture7-special_topic1_part3동영상 08:30  
+Lecture7-special_topic1_part4동영상 22:01  
+Lecture7-special_topic1_part5동영상 16:52  
+[Zoom] special topic1_part6동영상 01:06:32  
 
 # 8주차 (5/6)  
 ## Lecture8-bipartite
