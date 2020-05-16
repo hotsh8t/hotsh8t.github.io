@@ -1,7 +1,7 @@
 ---
-title: "BMC : Basics of Telecommunications(2) "
-excerpt: "BCD BASICS(2)" 
-date: 2020-05-09
+title: "BMC : Basics of Telecommunications(3) "
+excerpt: "BCD BASICS(3)" 
+date: 2020-05-16
 author_profile: false
 toc: true
 toc_sticky: true
@@ -11,10 +11,66 @@ tag :
   - ETC
 ---
 
-# BASICS OF Business Data Communication(2)  
+# BASICS OF Business Data Communication(3) :Networks  
  
+> Switching Technologies 가 중요하다. 
 
-# [1]. Data Flows with Different Line Configurations  
+# [1]. Networks
+## 1. Digital COmmnication Networks  
++ 네트워크의 범위 
+    + Distance에 따라 LAN/WAN
+    + 컴퓨터 네트워크
+    + Wireless
++ Terminology
+    + Network Components
+
++ Internet
+    + Structure of the Internet
+    + Connecting to Internet Backbone
+        - 동시 접속자에 dynamic 하게 ip address를 할당
+    + LIne Contentions
+
++ Networking
+    + Networking Devices
+
+
+
+
+
+## 2. Data Flows  
++ **Simplex** : One way only
+    + 
+
+
+# [2]. LAN
+## 1. Data Flows  
++ **Simplex** : One way only
+    + 
+
+
+# [3]. WAN
+## 1. Data Flows  
++ **Simplex** : One way only
+    + 
+
+
+# [4]. Switching Technologies 
+## 1. Data Flows  
++ **Simplex** : One way only
+    + 
+
+
+
+# [5]. Internet
+## 1. Data Flows  
++ **Simplex** : One way only
+    + 
+
+# [6]. IoT and LoRa
+## 1. Data Flows  
++ **Simplex** : One way only
+    + 
+
 
 ## 1. Data Flows  
 + **Simplex** : One way only
@@ -113,20 +169,4 @@ tag :
 - Huffman Decoding
 
 ## 4. multiplexing?
-Multiplexing Technologies(1G-3G)​
-1) types
-- Frequency Division Multiplexing (FDM)​
-- Guard Band in FDM​
-- Wave-division Multiplexing (WDM)​
-- Time-Division Multiplexing (TDM)​
-
-
-- CDMA Spread code 가 중요
-
-
-
-
-
-
-
 
