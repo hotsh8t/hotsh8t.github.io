@@ -18,7 +18,7 @@ tag :
 - 역원 제도에서부터 발달함, 
 
 ## 2. Basic concept and Terminology  
-#### 1) Modern Communication Model
+1) Modern Communication Model
 - **Human Communication**  
     ```  
     Agent -> Medium -> Agent    
@@ -33,7 +33,7 @@ tag :
     [DTE] : Data Terminal Equipment  
     [DCE] : Data Communication Equipment
 
-#### 2) Farther and Faster
+2) Farther and Faster
 - Analog Communication  
     - 예) (S1, M1) ► (S2, M2),  Telephone  
     - Uses electricity to transmit messages
@@ -47,7 +47,7 @@ tag :
       Analog(Old info.) + Digitally Capturing -> DIgital information -> Transmission or Storage
 
 ## 3. Why Data(Digital) Communication?  
-- The same technologies for transmission **regardless the kinds of Information**
+The same technologies for transmission **regardless the kinds of Information**
 - **Speed**: Compression​
 - **Cost**: Multiplexing (line sharing)	​
 - **Reliability(Quality)**: Error detection and correction
