@@ -24,28 +24,60 @@ tag :
 + Terminology
     + Network Components
 
-+ Internet
-    + Structure of the Internet
-    + Connecting to Internet Backbone
-        - 동시 접속자에 dynamic 하게 ip address를 할당
-    + LIne Contentions
+## 2. Internet
++ Structure of the Internet
++ Connecting to Internet Backbone
+    - 동시 접속자에 dynamic 하게 ip address를 할당
++ LIne Contentions
 
 + Networking
     + Networking Devices
 
-
-
-
-
+  
 ## 2. Data Flows  
 + **Simplex** : One way only
     + 
 
 
+
+
+
+
 # [2]. LAN
-## 1. Data Flows  
-+ **Simplex** : One way only
-    + 
+## 1. Types of Networks​  
++ Local-area network (LAN)   A network that connects a relatively small number of machines in a relatively close geographical area​  
++ Types (Topology) of LAN​
+
+
+## 2. MAC (Medium Access Control)
+## 3. CSMA/CD
+
+## 4. Token Bus
+
+## 5. CSMA/CD vs Token Bus  
+- Under heavy loads, CSMA/CD performs poorly.​
+- Deterministic delay in token bus: important for process control​
+- Priority can be assigned in token bus​
+- Complexity of Token bus​
+- Token bus uses broadband (analog) transmission​
+
+
+## 6. Token Ring (IEEE 802.5) ​  
+> 빈 토큰(빈 패킷)이 미리 돌고 있으면 스테이션에서 아무 것도 없으면 데이터를 로딩해서 보낸다. 전송완료가 되면 마킹을 바꿔서 다른 패킷이 사용 할 수 있다. 순서는 없고 도는 속도가 빨라야지, 빈 패킷기다리는데 오래 걸리면 안되기 때문에 optical 네트워크에서만 이런 방식을 사용함.  
+- Token packet circulates when all stations are idle​
+- If you want to transmit, wait for a free token​
+- Grab free token, transform it into a control field, append to data and send out​
+- After round trip, insert a free token​
+- Only one data packet at a time.​
+
+## 7. FDDI  (Fiber Distributed Data Interface)​
+
+
+
+
+
+
+
 
 
 # [3]. WAN
@@ -54,10 +86,20 @@ tag :
     + 
 
 
+
+
+
+
 # [4]. Switching Technologies 
 ## 1. Data Flows  
 + **Simplex** : One way only
     + 
+
+
+
+
+
+
 
 
 
