@@ -14,6 +14,101 @@ tags:
   
 
 # 0. 내용
+ 
+
+
+SIFT에서 하나의 특징점에 대한 정보(설명자)는 128차원의 실수 벡터
+
+SIFT(Scale-Invariant Feature Transform)은 특징점의 크기와 각도까지 같이 계산하여 이미지의 크기가 변하거나 회전해도 동일한 특징점을 찾을 수 있도록 하는 방법이다. 또한 특징점 근처의 이미지 특성(히스토그램)도 같이 계산해서 특징점 이미지의 모양도 구별할 수 있도록 한다.
+
+먼저 크기에 불변한 특징점을 추출하기 위해서, 스케일 피라미드(Scale-Pyrimid)를 만든다. 스케일 피라미드란 이미지의 원본 이미지에서 2배, 1배, 1/2배, 1/4배 점차 줄인 이미지이다.
+이렇게 만든 스케일 피라미드의 각 이미지에서 특징점을 찾는다. 이렇게 찿은 특징점은 스케일 불변(Scale-Invariant)이다. 하지만 이미지의 회전에는 불변이 아니다.
+회전 불변 특성을 위해 특징점 주변의 그레디언트 방향과 크기를 수집한다. 특징점을 중심으로 윈도우를 설정하여 그 안의 픽셀에 대한 그레디언트의 크기와 방향을 구한다.
+360도를 36등분하여 36개의 bin을 가진 그레디언트 벡터 히스토그램을 만든다. 가장 값이 큰 bin이 해당 특징점의 방향, 그 bin의 크기가 특징점의 크기가 된다.
+다음 코드는 이미지에 대해 SIFT 특징을 찾고, 변환된 이미지에서 같은 특징점 끼리 매칭하는 작업을 수행한다.
+
+#### kp1, des1 = self.sift.detectAndCompute(cv_image_input,None)   
+
+
+#### self.flann.knnMatch(des1,self.des_construction,k=2)
+
+
+ 
+#### FLANN :Fast Libarary for Approximate Nearest Neighbor
+
+큰 이미지에서 특성들을 **매칭**할 때 성능을 위해 최적화 된 라이브러리모음  
+**FLANN based Matche**
+FLANN은 Approximate Nearest Neighbors의 Fast Library를 나타냅니다. 대규모 데이터 세트 및 고차원features에서 nearest neighbor search 을 위해 최적화 된 알고리즘 모음이 포함되어 있습니다. 대규모 데이터 세트의 경우 BFMatcher보다 더 빠르게 작동합니다. FLANN 기반 matcher로 두 번째 예제를 보게 될 것입니다.
+
+FLANN 기반 매처의 경우 사용할 알고리즘, 관련 매개 변수 등을 지정하는 두 개의 사전을 전달해야합니다. 먼저 IndexParams입니다. 다양한 알고리즘에 대해 전달할 정보는 FLANN 문서에 설명되어 있습니다. 요약하면 SIFT, SURF 등과 같은 알고리즘의 경우 다음을 전달할 수 있습니다.
+```
+index_params = dict(algorithm = FLANN_INDEX_KDTREE, trees = 5)
+ORB를 사용하는 동안 다음을 전달할 수 있습니다. 주석 값은 문서별로 권장되지만 경우에 따라 필요한 결과를 제공하지 않습니다. 다른 값은 잘 작동했습니다.
+
+index_params= dict(algorithm = FLANN_INDEX_LSH,
+                   table_number = 6, # 12
+                   key_size = 12,     # 20
+                   multi_probe_level = 1) #2     
+
+```
+두 번째 사전은 SearchParams입니다. 인덱스의 트리를 재귀 적으로 탐색해야하는 횟수를 지정합니다. 값이 높을수록 정확도가 높아지지만 시간이 더 많이 소요됩니다. 값을 변경하려면 search_params = dict (checks = 100)를 전달하십시오.
+
+이러한 정보를 통해 이제 우리는 잘 할 수 있습니다.
+
+
+
+
+
+``` python
+FLANN_INDEX_KDTREE = 0 
+index_params = dict(algorithm=FLANN_INDEX_KDTREE, tree=5)
+search_params = dict(checks=50)
+
+```
+
+FLANN 기반 매칭을 위해 두개의 DICT이 필요함(index_params, search_params)
+index_params = dict(algorithm=FLANN_INDEX_LSH, table_number=6, key_size=12, multi_probe_level=1)
+
+
+searchParams는 특정매칭을 위한 반복회수(tradeoff 정확한결과값<->속도는 느려짐) ex :checks=100, check=50 등
+
+
+
+``` python
+flann = cv2.FlannBasedMatcher(index_params,search_params)
+matches = flann.knnMatch(des1,des2,k=2)
+```
+
+FLANN 기반 매칭 객체를 앞에서 구성한 DICT자료형태의 인자를 이용해 생성, 추후 KNN 매칭을 수행 KNN매칭은 K=2 로 설정하였으므로 
+matches는 (1순위매칭결과, 2순위매칭결과)가 멤버인 리스트가 됨
+
+
+``` python
+good=[]
+for m,n in matches:
+if m.distance >factor*n.distance:
+good.append(m)
+```
+
+
+matches의 각 멤버에서 1순위 매칭결과가 2순위 매칭결과의 factor로 주어진 비율보다 더 가까운값만을 취함.
+facotr의 값은 0.7이므로 1순위 매칭 결과가 2순위 ㅁ채ㅣㅇ결과의 0.7배보다 더 가까운 값만을 취함
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -22,11 +117,14 @@ tags:
 
 # 관련 링크  
 
-[  ]('https://leechamin.tistory.com/330')
+[FLANN ]('https://leechamin.tistory.com/330')
    
+[이미지의 특징점 매칭(Feature Matching)장단점 비교]('http://www.gisdeveloper.co.kr/?p=6824')
+
+[파라메터(index,search)]('https://m.blog.naver.com/PostView.nhn?blogId=samsjang&logNo=220657746860&proxyReferer=https:%2F%2Fwww.google.com%2F')
 
 
-
+[DS: 알고리즘비교]('https://datascienceschool.net/view-notebook/7eb4b2a440824bb0a8c2c7ce3da7a4e2/')
 ``` python
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
