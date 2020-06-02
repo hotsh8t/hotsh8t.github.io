@@ -117,14 +117,14 @@ facotr의 값은 0.7이므로 1순위 매칭 결과가 2순위 ㅁ채ㅣㅇ결�
 
 # 관련 링크  
 
-[FLANN ]('https://leechamin.tistory.com/330')
+[FLANN ](https://leechamin.tistory.com/330)
    
-[이미지의 특징점 매칭(Feature Matching)장단점 비교]('http://www.gisdeveloper.co.kr/?p=6824')
+[이미지의 특징점 매칭(Feature Matching)장단점 비교](http://www.gisdeveloper.co.kr/?p=6824)
 
-[파라메터(index,search)]('https://m.blog.naver.com/PostView.nhn?blogId=samsjang&logNo=220657746860&proxyReferer=https:%2F%2Fwww.google.com%2F')
+[파라메터(index,search)](https://m.blog.naver.com/PostView.nhn?blogId=samsjang&logNo=220657746860&proxyReferer=https:%2F%2Fwww.google.com%2F)
 
 
-[DS: 알고리즘비교]('https://datascienceschool.net/view-notebook/7eb4b2a440824bb0a8c2c7ce3da7a4e2/')
+[DS: 알고리즘비교](https://datascienceschool.net/view-notebook/7eb4b2a440824bb0a8c2c7ce3da7a4e2/)
 ``` python
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
