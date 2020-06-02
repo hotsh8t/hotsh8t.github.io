@@ -42,6 +42,11 @@ tag :
 
 # [2]. Communication Impairments  ​  
 
+
+[Transmission Impairments 1](https://youtu.be/rStveoU1xQo)
+[Transmission Impairments 2](https://youtu.be/bnl1aKrM62o)
+
+
 # [3]. Security of Communication Human Threats to Communications  
 - CONFIDENTIALITY, INTEGRITY, NON-REPUDIATION 이 중요하다.   
 ## 1. Security Control
@@ -68,7 +73,7 @@ tag :
 
 
 - RSA Cryptography
-
+    - [RSA Cryptography](https://youtu.be/4zahvcJ9glg)
     - ENcr
 
 
@@ -84,6 +89,9 @@ tag :
 
 
 # [4]. Communication Performance Improvement  
+
+
+[Race for Faster Communication](https://youtu.be/bub2iCRkyLE)
 
 ## 1.Performance Measurements
 - Transmission Time = (Message Size)/(Channel Capacity)​
@@ -103,6 +111,9 @@ tag :
 > `compression`, `multiplexing`이 가장 중요하기때문에 이 두개에 대해서만 언급
 
 ## 3. Comporession 
+[Data Compression](https://youtu.be/OtDxDvCpPL4)
+
+
 - Reduces the size of data files to move more information with fewer bits
     ![Screenshot from 2020-05-16 09-04-35](https://user-images.githubusercontent.com/64456846/82105047-51952f80-9754-11ea-9fd2-6e4389517a78.png)
 - Lossless comporession :
@@ -113,6 +124,8 @@ tag :
 - Huffman Decoding
 
 ## 4. multiplexing?
+
+[Multiplexing](https://youtu.be/oYRMYSIVj1o)
 Multiplexing Technologies(1G-3G)​
 1) types
 - Frequency Division Multiplexing (FDM)​
@@ -123,9 +136,11 @@ Multiplexing Technologies(1G-3G)​
 
 - CDMA Spread code 가 중요
 
+[CDMA](https://youtu.be/oYRMYSIVj1o)
 
+[5G(1)](https://youtu.be/GEx_d0SjvS0)
 
-
+[5G(2)](https://youtu.be/LhECDSuXRDs)
 
 
 

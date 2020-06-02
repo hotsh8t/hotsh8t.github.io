@@ -44,12 +44,15 @@ tag :
 
 
 # [2]. LAN
+
 ## 1. Types of Networks​  
 + Local-area network (LAN)   A network that connects a relatively small number of machines in a relatively close geographical area​  
 + Types (Topology) of LAN​
+[LAN](https://youtu.be/LCj2HDOd_Mk)
 
 
 ## 2. MAC (Medium Access Control)
+[Medium Access Control](https://youtu.be/_RdJp4z9I-A)
 ## 3. CSMA/CD
 
 ## 4. Token Bus
@@ -149,6 +152,7 @@ NAP    			Host-Network
 -
  
 
+[Connecting between diffrent protocols](https://youtu.be/1z0ULvg_pW8)
 
 # [4]. Switching Technologies 
 > 패킷스위칭은 두가지 방식으로 WLN 데이터그램, 버츄얼서킷방식이 있다. 우리가 매일 쓰는게 버츄얼
