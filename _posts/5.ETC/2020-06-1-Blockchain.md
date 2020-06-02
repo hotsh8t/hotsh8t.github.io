@@ -18,7 +18,7 @@ tag :
 # [1]. Money History and Theory(What is Money?)  
 
 
-[History of Money]("https://youtu.be/VKOIJS_qZGQ")
+[History of Money](https://youtu.be/VKOIJS_qZGQ)
  
 
 
@@ -31,7 +31,7 @@ tag :
 
 
 The Best Documentary Ever - The Bitcoin Phenomenon
-[Blockchain Plainly Explained]('https://youtu.be/IMJmd_tNhlM')
+[Blockchain Plainly Explained](https://youtu.be/IMJmd_tNhlM)
 
 
 
@@ -44,13 +44,13 @@ The Best Documentary Ever - The Bitcoin Phenomenon
 # [3]. Introduction to Blockchain  
 
 ## 0.Why New Universal Crypto-Currency?  
-[Blockchain Expert Explains One Concept in 5 Levels of Difficulty | WIRED]("https://youtu.be/hYip_Vuv8J0")
+[Blockchain Expert Explains One Concept in 5 Levels of Difficulty | WIRED](https://youtu.be/hYip_Vuv8J0)
 
 ## 1.기본개념
 #### (1)용어 
  LEDGER POW 
 
-[Blockchain concept in 5 levels of difficulty]("https://youtu.be/hYip_Vuv8J0")
+[Blockchain concept in 5 levels of difficulty](https://youtu.be/hYip_Vuv8J0)
 
 #### (2)비트코인 
 
@@ -162,11 +162,11 @@ category.
 
 # [7]. ICO and IEO  
 ## 1.ICO  
-[What is ICO?]("https://youtu.be/iyuZ_bCQeIE")
+[What is ICO?](https://youtu.be/iyuZ_bCQeIE)
 
 
 ## 2.IEO  
-[What is IEO?]("https://youtu.be/arFSWUuaA6s")
+[What is IEO?](https://youtu.be/arFSWUuaA6s)
 
 
 
@@ -182,7 +182,7 @@ category.
 
 
 ## 3.Cryptocurrencies: Beyond the hype
-[Cryptocurrencies: Beyond the hype]("https://youtu.be/vo6s1mUjxQQ")
+[Cryptocurrencies: Beyond the hype](https://youtu.be/vo6s1mUjxQQ)
 
 
 ## 4.Cryptocurrency’s biggest threat
