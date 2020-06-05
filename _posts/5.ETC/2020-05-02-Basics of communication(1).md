@@ -19,17 +19,18 @@ tag :
 
 ## 2. Basic concept and Terminology  
 1) Modern Communication Model
-- **Human Communication**  
-    ```  
-    Agent -> Medium -> Agent    
-    (Info)   (Signal)  (Info) 
-    ```  
+- **Human Communication**   
+
+    |Agent|->|Medium|->|Agent|
+    |:---:|---|:---:|:---:|:---:|
+    |(Info)||(Signal)||(Info)|
 
 - **Telecommunication**  
-    ```
-    Agent -> DTE/DCE -> Medium -> DCE/DTE -> Agent  
-            (S1->S2)             (S2->S1)           
-    ```  
+
+    |Agent|->|DTE/DCE|->|Medium|->|DCE/DTE|->|Agent|
+    |:---:|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+    |||(S1->S2)||||(S2->S1)||
+    
     [DTE] : Data Terminal Equipment  
     [DCE] : Data Communication Equipment
 
