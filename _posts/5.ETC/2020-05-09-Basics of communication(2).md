@@ -177,18 +177,31 @@ rse operation.
 - Synchronous and Statistical TDM
     > Synchronous는 무조건 순서대로 데이터가 들어오는대로 보내기 때문에 비어있는 **frame**이 많아서 데이터 bandwidth에 LOSS가 많다.하지만 어느 터미널에서 데이터가 오는지 분명하게 확인할 수 있어 마킹이 필요 하지 않음. 반면에 statistical TDM은 빈 프레임이 없이 꽉꽉 채워서 보냄 하지만 어떤 터미널에서 오는것인지 슬롯에 마킹을 해줘야 함.
 
+- 참고이미지.1 :
+
     - ![Synchronous and Statistical TDM](https://user-images.githubusercontent.com/64456846/83934246-65c7cc00-a7ea-11ea-94ff-4b6ddf1db284.png)
+
+- 참고이미지.2 :
+
+    - ![Screenshot from 2020-06-06 11-46-50](https://user-images.githubusercontent.com/64456846/83934362-76c50d00-a7eb-11ea-8463-f420ff0c0b2a.png)
+
+
+
+
+- 참고이미지.3 :
+
+    - ![Screenshot from 2020-06-06 11-47-42](https://user-images.githubusercontent.com/64456846/83934370-90665480-a7eb-11ea-989f-50f16da309dc.png)
+
 
 
 - Synchronous TDM and PSTN
-    - 끊기지 않아야 하는 경우, 예를들면 서울-부산 사람들의 전화연결을 위해서는 Backbone 에 큰 Line을 두고 Multiplexing 한다. 신뢰할만한 통신네트워크를 묶어서 보증 하는 것-> T1, T3...
+    > 끊기지 않아야 하는 경우, 예를들면 서울-부산 사람들의 전화연결을 위해서는 Backbone 에 큰 Line을 두고 Multiplexing 한다. 신뢰할만한 통신네트워크를 묶어서 보증 하는 것-> T1, T3...
 
-Used in the modern digital telephone system 
-US, Canada, Japan: DS-0, DS-1 (T-1), DS-3 (T-3), ...
-Europe, elsewhere: E-1, E3, ...
-Data rate of 1.544Mbps
-Uses PCM to digitize voice transmission at 8K/sec, frame
-length of 193bits
+    - Used in the modern digital telephone system 
+        - US, Canada, Japan: DS-0, DS-1 (T-1), DS-3 (T-3), ...  
+        - Europe, elsewhere: E-1, E3, ...
+        - Data rate of 1.544Mbps
+        - Uses PCM to digitize voice transmission at 8K/sec, frame length of 193bits
 
 
 - SONET: Synchronous Optical Network
@@ -200,18 +213,34 @@ length of 193bits
 #### 6) **CDMA**
 - CDMA?
     > QULCOMM 에서 개발, 우리나라에서 제일 먼저 상용화
-    - 정의 :
+    - 정의 : 코드 분할 다중 접속(Code Division Multiple Access)
     - 참고자료 : [CDMA](https://youtu.be/oYRMYSIVj1o)
-    - CDMA Spread code 가 중요
-        - 1/0을 각 채널마다 7bit의 Spread code로 변환하여 신호를 보냄
-    - Channel Code  
-        - 1 Channel Spreading Code
-        - 0 Inversion Spreading 
-    - Composite Signal
+
+- 배경    
+    > 내용  기존의 통신 방식인 주파수 분할 다중 접속(FDMA) 및 시간 분할 다중 접속(TDMA)는 다중 접속을 감당하는데 무리가 있다는 단점을 해결. 이론적으로는 동일한 무선 인터페이스를 이용하고 주파수 분배 방식만 다를 경우, FDMA, TDMA, CDMA 모두 동일한 전송 대역폭을 갖는다. 그러나 FDMA 방식이나 TDMA 방식의 경우 무선 통신중 발생할 수 있는 혼선을 방지하기 위해 물리적인 혼선 방지 영역[1]을 배치해야 하는데, 무선 통신 하면 카폰으로 이해하던, 과거 접속자 수가 얼마 없던 시절에는 분할할 일이 적기에 큰 불편 없이 썼지만 무선 통신 수요가 점증하는 상황에서 기존의 FDMA와 TDMA 방식으로는 무선 통신 수요가 몰리는 지역에선 통신에 사용되는 주파수보다 혼선방지를 위해 비워두는 주파수가 더 많은 상황에 직면, 혹은 원활한 통신을 위한 대역폭 요구량이 폭증하게 되리라는 것이 예견되었다.
+
+- 장점
+         
+    > 암호화 키를 잘 지키면 다른 사용자는 원래의 내용을 알수없어 보안성이 강하다고 알려졌으며[2], 물리적으로 더 이상 분할할 수 없는 지점까지만 수용 가능한 FDMA/TDMA와 다르게 접속자 수가 몰리면 그냥 음질을 낮춰 전송되는 정보량을 줄여버리면 그만인 CDMA는 높은 통화 효율과 안정적인 통화 서비스 제공을 보장할 수 있다.
+
+    > 당시의 기술 수준으로도 여러 주파수 조각 중 원하는 조각을 선별해 수신해야 하는 기존 방식보다 일단 송출되는 주파수를 다 받기에 Diversity 측면에서 우수성을 인정받았으며, 이로 인해 페이딩 에 강하다. CDMA 도입 당시에 언론에서 자주 하던 말인 산악이 70%인 한국 지형에 강하다는 이를 두고 한 말이다. Soft Handoff를 구현하려 여러 기술적 묘기가 필요했던 기존 기술과는 달리 그냥 이동국이 접속한 기지국의 인접 기지국에서도 통신정보를 동시에 송출하면 Soft Handoff 구현 가능. 이 때 이용된 기지국 간의 유연한 접속 기술은 CDMA의 장점이 발휘되기 어려운 업링크 환경에서 혼잡하지 않은 기지국과 통신하는 기술로도 유용하게 사용되었다.
+
      - 참고이미지 :
 
         ![CDMA](https://user-images.githubusercontent.com/64456846/83934171-a410bb80-a7e9-11ea-9429-92b926cb5e34.png)
+
+- 원리
+    >CDMA는 주파수, 시간이라는 물리적인 혼선 방지를 코드라는 논리적인 혼선 방지책으로 전환하는 방법으로 이 문제를 해결하였다. CDMA를 이해하려면 DSSS를 먼저 반드시 알아야 하지만 대략적인 아이디어만 간단히 서술하자면, 기지국 내의 사용자들에게 전송해야 할 데이터를 사용자가 알고 있는 암호(Code)로 각각 암호화 한 후, 모두 더해서 방송 송출하듯이 전송. 사용자는 자신이 갖고 있는 암호키로 데이터를 복호화 하고 다른 사용자의 신호 성분은 잡음으로 수신되거나, 코드 벡터의 직교성과 내적의 원리를 사용해 다른 사용자의 신호를 자연스럽게 무시하는 원리이다. 
+
+    - **CDMA Spread code** 가 중요
+        - 1/0을 각 채널마다 7bit의 Spread code로 변환하여 신호를 보냄
+    - **Channel Code**  
+        - 1 Channel Spreading Code
+        - 0 Inversion Spreading 
+    - **Composite Signal**
+
      
+     > frequency division을 동시에 보낸다는것은 analog signal에서 interference가 일어나는데 통신에는 cell이라고 해서 반경마다 서울에서 보내는것, 부산에서 보내는것은 interference가 없다. 따라서 CDMA는 frequency division도 하는 것은 인접해서 하는 것은 같은 frequency를 같이 써도 된다. 즉 간섭을 없애기 위해 cell을 쪼개서 frequency division + code division 의 방식이다. 
 
 ## 5. Segmentation
 - Why Do Segmentation? 
@@ -228,7 +257,7 @@ length of 193bits
 
 
 
-> 정리하자면, 통신에서 Peformance를 높이기 위한 3가지 방법으로는,    
+정리하자면, 통신에서 Peformance를 높이기 위한 3가지 방법으로는,    
 > 1.보내는 양을 줄여서 보내는 **compression**    
 > 2. 라인을 잘 활용하기 위해 묶어서 보내는 **multiplexing**       
 > 3. 라인의 스피드나 에러확률에 따라서 그때그때마다 waiting(queing)타임을 줄이기 위한 **segmentation**  
