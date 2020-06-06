@@ -110,7 +110,7 @@ tag :
 - Prepare for Errors: **Optimal Segmentation​**
 > `compression`, `multiplexing`이 가장 중요하기때문에 이 두개에 대해서만 언급
 
-## 3. Comporession 
+## 3. Compression 
 [Data Compression](https://youtu.be/OtDxDvCpPL4)
 
 
@@ -123,11 +123,32 @@ tag :
     
 - Huffman Decoding
 
-## 4. multiplexing?
+## 4. MULTIPLEXING
 
-[Multiplexing](https://youtu.be/oYRMYSIVj1o)
-Multiplexing Technologies(1G-3G)​
-1) types
+#### 1) Multiplexing(멀티플렉싱)이란?
+
+- 참고자료 : [Multiplexing(6:07)](https://youtu.be/oYRMYSIVj1o) 
+- **Multiplexing** : Simultaneous transmission techonology of **multiple signals across a single data link**.
+- **Multiplexer (MUX)** : device that combines several signals into a single signal.
+- **Demultiplexer (DEMUX)** : device that performs the inve
+rse operation.
+- 참고이미지 : **'Direct to Direct'** 와 **'Multiplexing'** 의 비교
+    ![Multiplexing 의 비교](https://user-images.githubusercontent.com/64456846/83932980-c7cf0400-a7df-11ea-80fd-5086fb3e9529.png)
+- Transmission Efficiency(전송효율)
+    - Several data sources **share a common transmission medium**, with each source having **its own channel**.
+    - Line sharing saves **transmission costs**.
+    - Higher data rates mean more **cost-effective** transmissions
+    - Most individual data sources require relatively low data rates
+
+
+#### 2) Multiplexing Technologies(1G-3G)​
+
+- Multiple Access Methods(1G, 2G, 3G)
+- 참고이미지 : FDMA, TDMA, CDMA의 비교 
+
+    ![FDMATDMACDMA](https://user-images.githubusercontent.com/64456846/83933161-25b01b80-a7e1-11ea-8196-d00c583cb4d7.png)
+
+#### 3) Types
 - Frequency Division Multiplexing (FDM)​
 - Guard Band in FDM​
 - Wave-division Multiplexing (WDM)​
