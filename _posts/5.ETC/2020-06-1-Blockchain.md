@@ -47,31 +47,31 @@ The Best Documentary Ever - The Bitcoin Phenomenon
 [Blockchain Expert Explains One Concept in 5 Levels of Difficulty | WIRED](https://youtu.be/hYip_Vuv8J0)
 
 ## 1.기본개념
-#### (1)용어 
+**1). 용어**  
  LEDGER POW 
 
 [Blockchain concept in 5 levels of difficulty](https://youtu.be/hYip_Vuv8J0)
 
-#### (2)비트코인 
+**2). 비트코인** 
 
-#### (3)Byzantine Generals Problem
+**3). Byzantine Generals Problem**
  
-#### (4)PoW
+**4). PoW**
 
-#### (5)Another GPT?
+**5). Another GPT?**
 
 
 
 
 ## 2.활용 예
-#### (1)비트코인
+**1). 비트코인**
 
-#### (2)이더리움
+**2). 이더리움**
 
-#### (3)Different 19 specilized coins
+**3). Different 19 specilized coins**
 
 
-#### (4)Cryptokitties
+**4). Cryptokitties**
 
 
 
@@ -109,14 +109,14 @@ category.
     -![Tokens and Products](https://user-images.githubusercontent.com/64456846/83425898-556dc500-a469-11ea-8d2a-100036bb3be2.png)  
 
 
-#### (1) Token Economy
+**1). Token Economy**
  - More generic than traditional money
  - More fungible than traditional money
  - Near zero cost of payment
 [Token economy]("https://youtu.be/XatEoU36U-o")
-#### (2) Payment and Investment
-#### (3) Supply Chain Integrity
-#### (4) New Business Models from Blockchains - Edge computing / Digital marketplaces
+**2). Payment and Investment**
+**3). Supply Chain Integrity**
+**4). New Business Models from Blockchains** - Edge computing / Digital marketplaces
  
 
 
