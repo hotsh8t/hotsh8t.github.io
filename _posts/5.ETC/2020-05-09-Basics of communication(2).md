@@ -123,9 +123,10 @@ tag :
     
 - Huffman Decoding
 
-## 4. Multiplexing
 
-#### 1) Multiplexing(멀티플렉싱)이란?
+## 4. Multiplexing  
+
+**1). Multiplexing(멀티플렉싱)이란?**  
 
 - 참고자료 : [Multiplexing(6:07)](https://youtu.be/oYRMYSIVj1o) 
 - **Multiplexing** : Simultaneous transmission techonology of **multiple signals across a single data link**.
@@ -143,14 +144,14 @@ rse operation.
     - Most individual data sources require relatively low data rates
 
 
-#### 2) Multiplexing Technologies(1G-3G)​
+**2). Multiplexing Technologies(1G-3G)​**  
 
 - Multiple Access Methods(1G, 2G, 3G)
 - 참고이미지 : FDMA, TDMA, CDMA의 비교  
     ![FDMATDMACDMA](https://user-images.githubusercontent.com/64456846/83933161-25b01b80-a7e1-11ea-8196-d00c583cb4d7.png)
     > Frequency는 라디오처럼 터미널마다 각각 다른 주파수 할당, Time, Code 
  
-#### 3) **FDM** : Frequency Division Multiplexing 
+**3). FDM : *Frequency Division Multiplexing*** 
 - FDM이란? 
     > Frequency는 라디오처럼 터미널마다 각각 다른 주파수 할당하는 방식.   
     > 모든 주파수를 더한 것을 커버할만큼의 medium 이 필요함
@@ -163,14 +164,14 @@ rse operation.
 ![Guard band](https://user-images.githubusercontent.com/64456846/83933558-973d9900-a7e4-11ea-9e46-8e7b9bb1e9e9.png)
  
 
-#### 4) **WDM** : Wave-division Multiplexing
+**4). WDM : *Wave-division Multiplexing***  
 - WDM이란?
     > Fiber Optics 즉 광케이블에서는 전자기파장의 일부만 가시광선, 가시광선을 이용한 광케이블, 프리즘을 써서 MUX DEMUX로 활용할 수 있다.  
 - 참고이미지 :
 
     ![WDM](https://user-images.githubusercontent.com/64456846/83933689-cbfe2000-a7e5-11ea-8f97-9da0dfc4caf3.png)
 
-#### 5) **TDM** : Time-Division Multiplexing 
+**5). TDM : *Time-Division Multiplexing*** 
 - TDM 이란??
     > 예를들면 시간차를 두고 4개의 디바이스가 순서대로 데이터를 전송하는 방법(시간을 쪼개서 로테이션)
 
@@ -210,7 +211,7 @@ rse operation.
     - Uses Synchronous TDM
 
 
-#### 6) **CDMA**
+**6). *CDMA***
 - CDMA?
     > QULCOMM 에서 개발, 우리나라에서 제일 먼저 상용화
     - 정의 : 코드 분할 다중 접속(Code Division Multiple Access)
@@ -248,7 +249,7 @@ rse operation.
     - Reduce Waiting Time on the network
 - Tradeoff
 
-#### 7) 5G 참고
+## 6. 5G 참고
 - 참고자료.1 : [5G(1)](https://youtu.be/GEx_d0SjvS0)
 > 5G 
 
@@ -258,6 +259,7 @@ rse operation.
 
 
 정리하자면, 통신에서 Peformance를 높이기 위한 3가지 방법으로는,    
+
 > 1.보내는 양을 줄여서 보내는 **compression**    
 > 2. 라인을 잘 활용하기 위해 묶어서 보내는 **multiplexing**       
 > 3. 라인의 스피드나 에러확률에 따라서 그때그때마다 waiting(queing)타임을 줄이기 위한 **segmentation**  
