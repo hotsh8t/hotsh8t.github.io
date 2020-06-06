@@ -258,6 +258,7 @@ tag :
     - c클래스 -> 호스트ID가 255 (11111111<sub>2</sub>)
 
 ## 서브넷   
+
 #### 정의   
 - **호스트ID로 사용되던 비트를 서브넷 ID로 변경**
 - 작은 네트워크로 분할하여 브로드캐스트로 전송되는 패킷의 범위를 좁힘
@@ -328,6 +329,7 @@ tag :
     - FIN : 연결종료
 
 ## **3-Way 핸드셰이크**
+
 #### 1. 연결요청        - [이미지]  
 
 1. 연결확립요청
@@ -377,6 +379,7 @@ tag :
 
 
 ## 일련번호와 확인응답번호의 구조??
+
 TCP헤더에서의 **일련번호**, **확인응답번호**
 
 #### 일련번호????
@@ -386,7 +389,9 @@ TCP헤더에서의 **일련번호**, **확인응답번호**
 
 ## 윈도우의 크기(버퍼의 한계크기)??
 - 버퍼, 오버플로우 
+
 ## UDP
+
 #### 정의    
 - 비연결형 통신, 효율성(데이터를 빠르게 보내는 것)을 중요시 함 
 
@@ -430,6 +435,31 @@ TCP헤더에서의 **일련번호**, **확인응답번호**
     - 무선랜, 엑세스 포인트, IEEEE80211n, SSO, 채널, 전파간섭  
 
 
+===========================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -439,12 +469,7 @@ TCP헤더에서의 **일련번호**, **확인응답번호**
 
 [History of Money](https://youtu.be/VKOIJS_qZGQ)
  
-
-
-
-
-
-
+ 
 
 # [2]. Investment in Blockchain(Bitcoin and Investment)  
 
@@ -452,13 +477,7 @@ TCP헤더에서의 **일련번호**, **확인응답번호**
 The Best Documentary Ever - The Bitcoin Phenomenon
 [Blockchain Plainly Explained](https://youtu.be/IMJmd_tNhlM)
 
-
-
-
-
-
-
-
+ 
 
 # [3]. Introduction to Blockchain  
 
@@ -479,9 +498,7 @@ The Best Documentary Ever - The Bitcoin Phenomenon
 
 #### (5)Another GPT?
 
-
-
-
+ 
 ## 2.활용 예
 #### (1)비트코인
 
