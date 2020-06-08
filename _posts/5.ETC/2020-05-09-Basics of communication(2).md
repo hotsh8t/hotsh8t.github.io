@@ -128,12 +128,12 @@ tag :
 
 **1). Multiplexing(멀티플렉싱)이란?**  
 
-- 참고자료 : [Multiplexing(6:07)](https://youtu.be/oYRMYSIVj1o) 
+- 참고자료(수업) : [Multiplexing(6:07)](https://youtu.be/oYRMYSIVj1o) 
 - **Multiplexing** : Simultaneous transmission techonology of **multiple signals across a single data link**.
 - **Multiplexer (MUX)** : device that combines several signals into a single signal.
 - **Demultiplexer (DEMUX)** : device that performs the inve
 rse operation.
-- 참고이미지 : **'Direct to Direct'** 와 **'Multiplexing'** 의 비교
+- 참고이미지(수업) : **'Direct to Direct'** 와 **'Multiplexing'** 의 비교
     >  Direct to Direct는에 비해 Multiplexing 기술
 
     ![Multiplexing 의 비교](https://user-images.githubusercontent.com/64456846/83932980-c7cf0400-a7df-11ea-80fd-5086fb3e9529.png)
@@ -147,7 +147,7 @@ rse operation.
 **2). Multiplexing Technologies(1G-3G)​**  
 
 - Multiple Access Methods(1G, 2G, 3G)
-- 참고이미지 : FDMA, TDMA, CDMA의 비교  
+- 참고이미지(수업) : FDMA, TDMA, CDMA의 비교  
     ![FDMATDMACDMA](https://user-images.githubusercontent.com/64456846/83933161-25b01b80-a7e1-11ea-8196-d00c583cb4d7.png)
     > Frequency는 라디오처럼 터미널마다 각각 다른 주파수 할당, Time, Code 
  
@@ -160,14 +160,14 @@ rse operation.
     > 주파수를 합해서 보낼때 겹치는 대역이 생기는데 이를 방지하기 위해 사용하지 않는 대역으로 주파수를 구분해 주는 방법, 제일 낮은 주파수대역에서부터 제일 높은 주파수 대역을 스펙트럼이라 하며 데이터가 전송하는 부분을 Bandwidth 라고함. 이때 Guard band가 더해졌기 때문에 전체 주파수 대역인 Spectrum은 실제 Bandwidth보다 클 수밖에 없음. 
 
     >고속도로의 차선과 같은 방법으로 Spectrum제한 때문에 채널 확장이 용이하지는 않지만 손쉬운 방법이고, 할당된 Bandwidth를 통해 중단없는 데이터를 보낼 수 있음
-- 참고이미지 : Guard band로 인한 Spectrum과 Bandwidth의 관계(**Spectrum > Bandwidth**)   
+- 참고이미지(수업) : Guard band로 인한 Spectrum과 Bandwidth의 관계(**Spectrum > Bandwidth**)   
 ![Guard band](https://user-images.githubusercontent.com/64456846/83933558-973d9900-a7e4-11ea-9e46-8e7b9bb1e9e9.png)
  
 
 **4). WDM : *Wave-division Multiplexing***  
 - WDM이란?
     > Fiber Optics 즉 광케이블에서는 전자기파장의 일부만 가시광선, 가시광선을 이용한 광케이블, 프리즘을 써서 MUX DEMUX로 활용할 수 있다.  
-- 참고이미지 :
+- 참고이미지(수업) :
 
     ![WDM](https://user-images.githubusercontent.com/64456846/83933689-cbfe2000-a7e5-11ea-8f97-9da0dfc4caf3.png)
 
@@ -178,18 +178,18 @@ rse operation.
 - Synchronous and Statistical TDM
     > Synchronous는 무조건 순서대로 데이터가 들어오는대로 보내기 때문에 비어있는 **frame**이 많아서 데이터 bandwidth에 LOSS가 많다.하지만 어느 터미널에서 데이터가 오는지 분명하게 확인할 수 있어 마킹이 필요 하지 않음. 반면에 statistical TDM은 빈 프레임이 없이 꽉꽉 채워서 보냄 하지만 어떤 터미널에서 오는것인지 슬롯에 마킹을 해줘야 함.
 
-- 참고이미지.1 :
+- 참고이미지(수업).1 :
 
     - ![Synchronous and Statistical TDM](https://user-images.githubusercontent.com/64456846/83934246-65c7cc00-a7ea-11ea-94ff-4b6ddf1db284.png)
 
-- 참고이미지.2 :
+- 참고이미지(수업).2 :
 
     - ![Screenshot from 2020-06-06 11-46-50](https://user-images.githubusercontent.com/64456846/83934362-76c50d00-a7eb-11ea-8463-f420ff0c0b2a.png)
 
 
 
 
-- 참고이미지.3 :
+- 참고이미지(수업).3 :
 
     - ![Screenshot from 2020-06-06 11-47-42](https://user-images.githubusercontent.com/64456846/83934370-90665480-a7eb-11ea-989f-50f16da309dc.png)
 
@@ -215,7 +215,7 @@ rse operation.
 - CDMA?
     > QULCOMM 에서 개발, 우리나라에서 제일 먼저 상용화
     - 정의 : 코드 분할 다중 접속(Code Division Multiple Access)
-    - 참고자료 : [CDMA](https://youtu.be/oYRMYSIVj1o)
+    - 참고자료(수업) : [CDMA](https://youtu.be/oYRMYSIVj1o)
 
 - 배경    
     > 내용  기존의 통신 방식인 주파수 분할 다중 접속(FDMA) 및 시간 분할 다중 접속(TDMA)는 다중 접속을 감당하는데 무리가 있다는 단점을 해결. 이론적으로는 동일한 무선 인터페이스를 이용하고 주파수 분배 방식만 다를 경우, FDMA, TDMA, CDMA 모두 동일한 전송 대역폭을 갖는다. 그러나 FDMA 방식이나 TDMA 방식의 경우 무선 통신중 발생할 수 있는 혼선을 방지하기 위해 물리적인 혼선 방지 영역[1]을 배치해야 하는데, 무선 통신 하면 카폰으로 이해하던, 과거 접속자 수가 얼마 없던 시절에는 분할할 일이 적기에 큰 불편 없이 썼지만 무선 통신 수요가 점증하는 상황에서 기존의 FDMA와 TDMA 방식으로는 무선 통신 수요가 몰리는 지역에선 통신에 사용되는 주파수보다 혼선방지를 위해 비워두는 주파수가 더 많은 상황에 직면, 혹은 원활한 통신을 위한 대역폭 요구량이 폭증하게 되리라는 것이 예견되었다.
@@ -226,7 +226,7 @@ rse operation.
 
     > 당시의 기술 수준으로도 여러 주파수 조각 중 원하는 조각을 선별해 수신해야 하는 기존 방식보다 일단 송출되는 주파수를 다 받기에 Diversity 측면에서 우수성을 인정받았으며, 이로 인해 페이딩 에 강하다. CDMA 도입 당시에 언론에서 자주 하던 말인 산악이 70%인 한국 지형에 강하다는 이를 두고 한 말이다. Soft Handoff를 구현하려 여러 기술적 묘기가 필요했던 기존 기술과는 달리 그냥 이동국이 접속한 기지국의 인접 기지국에서도 통신정보를 동시에 송출하면 Soft Handoff 구현 가능. 이 때 이용된 기지국 간의 유연한 접속 기술은 CDMA의 장점이 발휘되기 어려운 업링크 환경에서 혼잡하지 않은 기지국과 통신하는 기술로도 유용하게 사용되었다.
 
-     - 참고이미지 :
+     - 참고이미지(수업) :
 
         ![CDMA](https://user-images.githubusercontent.com/64456846/83934171-a410bb80-a7e9-11ea-9429-92b926cb5e34.png)
 
@@ -250,10 +250,10 @@ rse operation.
 - Tradeoff
 
 ## 6. 5G 참고
-- 참고자료.1 : [5G(1)](https://youtu.be/GEx_d0SjvS0)
+- 참고자료(수업).1 : [5G(1)](https://youtu.be/GEx_d0SjvS0)
 > 5G 
 
-- 참고자료.2 : [5G(2)](https://youtu.be/LhECDSuXRDs)
+- 참고자료(수업).2 : [5G(2)](https://youtu.be/LhECDSuXRDs)
 > 5G 
 
 

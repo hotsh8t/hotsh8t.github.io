@@ -16,27 +16,38 @@ tag :
 > Switching Technologies 가 중요하다. 
 
 # [1]. Networks
-## 1. Digital COmmnication Networks  
-+ 네트워크의 범위 
-    + Distance에 따라 LAN/WAN
-    + 컴퓨터 네트워크
-    + Wireless
-+ Terminology
-    + Network Components
+## 1. Digital Commnication Networks  
+- 네트워크의 범위 
+    - Distance에 따라 LAN/WAN
+    - 컴퓨터 네트워크
+    - Wireless
+- Terminology
+    - Network Components
 
 ## 2. Internet
-+ Structure of the Internet
-+ Connecting to Internet Backbone
+- Structure of the Internet
+- Connecting to Internet Backbone
     - 동시 접속자에 dynamic 하게 ip address를 할당
-+ LIne Contentions
+- LIne Contentions
 
-+ Networking
-    + Networking Devices
+## 3. Networking  
 
+1). Server/Client model  
+- Computer networks have opened up an entire frontier in the world of computing called the client/server model​
+
+2). Networking  
+- File server : A computer that stores and manages files for multiple users on a network​
+- Web server : A computer dedicated to responding to requests (from the browser client) for web pages​
+- Node(Host) / Data transfer rate / 
+
+3). Networking Devices  
+- Hub
+- Switches
+- Router
   
 ## 2. Data Flows  
-+ **Simplex** : One way only
-    + 
+- **Simplex** : One way only
+    - 
 
 
 
@@ -46,18 +57,45 @@ tag :
 # [2]. LAN
 
 ## 1. Types of Networks​  
-+ Local-area network (LAN)   A network that connects a relatively small number of machines in a relatively close geographical area​  
-+ Types (Topology) of LAN​
-[LAN](https://youtu.be/LCj2HDOd_Mk)
+1). 네트워크
+- Local-area network (LAN)   A network that connects a relatively small number of machines in a relatively close geographical area​  
+- Types (Topology) of LAN​
+- 참고자료(수업) : [LAN](https://youtu.be/LCj2HDOd_Mk)
+
+2). 종류 (Various Configuration called toplogies)
+- **Ring topology** : A configuration that connects all nodes in a closed loop on which messages travel in one direction
+
+- **Star topology** : A configuration that centers around one node to which all others are connected and through which all messages are sent​
+
+- **Bus topology(Ethernet)** : All nodes are connected to a single communication line that carries messages in both dire*ctions​
+
+## 2. MAC (Medium Access Control)  
+
+- 참고자료(수업) : [Medium Access Control](https://youtu.be/_RdJp4z9I-A)
+
+|Toplogy/MAC| BUS | Tree/Star | Ring|
+|---|:---:|:---:|:---:|
+|CSMA/CD|O|O||
+|Token Bus|O|O||
+|Token Ring|||O|  
 
 
-## 2. MAC (Medium Access Control)
-[Medium Access Control](https://youtu.be/_RdJp4z9I-A)
+
 ## 3. CSMA/CD
 
 ## 4. Token Bus
 
 ## 5. CSMA/CD vs Token Bus  
+
+- 참고링크 : [매체접근방식](http://blog.naver.com/PostView.nhn?blogId=stop2y&logNo=100209824948&parentCategoryNo=&categoryNo=40&viewDate=&isShowPopularPosts=false&from=postView)
+
+|매체접근방식| BUS | Tree/Star | Ring|
+|---|:---:|:---:|:---:|
+|CSMA/CD|O|O||
+|Token Bus|O|O||
+|Token Ring|||O|  
+
+ 
 - Under heavy loads, CSMA/CD performs poorly.​
 - Deterministic delay in token bus: important for process control​
 - Priority can be assigned in token bus​
@@ -77,16 +115,29 @@ tag :
 ## 7. FDDI  (Fiber Distributed Data Interface)​
 
 
-## 질문사항 : ethernet fddi?
+## 질문사항 : ETHERNET FDDI?
 
 
- 
+ ly the ultimate
+wide-area network, spanning the entire globe
 
-# [3]. WAN
+# [3]. WAN : Wide-Area Network  
+
 > 와이드 랜에는 몇백만개 오백억개가 넘기 때문에 리스트 만들어서 순서 기다리라고 하는건 불가. 즉 LAN에서 쓰는 방식은 WAN 에서 못씀. 
-## 1.​​ Wide-area network (WAN) :A network that connects two or more local-area networks over a potentially large geographic distance
-+ **Simplex** : One way only
-    + 
+## 1.​​ Wide-area network (WAN) :
+
+1). WAN이란?
+
+- A network that connects two or more local-area networks over a potentially large geographic distance
+- Often one particular node on a LAN is set up to serve as a gateway to handle all communication going between that LAN and other networks
+- Communication between networks is called internetworking
+- The Internet, as we know it today, is essentially the ultimate wide-area network, spanning the entire globe.
+- **Simplex** : One way only
+    - 
+
+
+2). **Who owns the Internet?**
+- No single person or company owns the Internet or even controls it entirely. As a wide-area network, it is made up of many smaller networks. These smaller networks are often owned and managed by a person or organization. The Internet, then, is really defined by how connections can be made between these networks.
 
 ## 2.​​ Type of networks
 
@@ -95,7 +146,9 @@ tag :
 
 - To improve the efficiency of transferring information over a shared communication line, messages are divided into fixed-sized, numbered **packets​**  
 - Network devices called routers are used to direct packets between networks​
-- 그림
+- 참고이미지(수업) :
+
+    ![PACKET](https://user-images.githubusercontent.com/64456846/83988134-562cbc80-a97d-11ea-924a-a2579a2ffb72.png)
 
 ## 4.​​ Open Systems
 - **Proprietary system :**  A system that uses technologies kept private by a particular commercial vendor​(One system couldn’t communicate with another, leading to the need for​)
@@ -104,49 +157,70 @@ tag :
 
 - **Open systems :**  Systems based on a common model of network architecture and a suite of protocols used in its implementation
 
-## 4.​​ Open Systems : OSI(
+## 4.​​ OSI
 > OSI는 제품이 아니고 표준 가이드라인임 by ISO 
+- OSI  
+    |LAYER|DESCRIPTION|
+    |:---:|---|
+    |7|Application layer|
+    |6|Presentation layer|
+    |5|Session layer|
+    |4|Transport layer|
+    |3|Network layer|
+    |2|Data link layer|
+    |1|Physical layer|
+
+## 5.​ Network Protocls
+- Network protocols are layered such that each one relies on the protocols that underlie it. Sometimes referred to as a **protocol stack**
+- 참고이미지(수업) : Network Protocols  
+
+    ![Screenshot from 2020-06-08 11-46-13](https://user-images.githubusercontent.com/64456846/83988269-bae81700-a97d-11ea-9b89-7d7fbe9f5e73.png)  
 
 - The International Organization for Standardization (ISO) established the Open Systems Interconnection (OSI) Reference Model​
 - Each layer deals with a particular aspect of network communication​
 
 
-## 5. TCP/IP 
+## 5. TCP/IP  
+ 
+- TCP/IP
+    - **TCP (Transmission Control Protocol​)** : TCP software breaks messages into packets, hands them off to the IP software for delivery, and then orders and reassembles the packets at their destination​   
+    - **IP (Internet Protocol)​** : IP software deals with the routing of packets through the maze of interconnected networks to their final destination​
+
 - TCP/IP Structure
-`
-Layer		        Things to do
-Process (Application)	Telnet, FTP, SMTP
-Internet (Transport)    Reliability and Efficiency, Security
-NAP    			Host-Network
-`
 
-- TCP/IP Examples
+    | Layer | Things to do |
+    |---|---|
+    | Process (Application) | Telnet, FTP, SMTP|
+    |Host-to-Host (TCP,Session) | Reliability and Efficiency, Security |
+    | Internet (Transport) | Routing |
+    |NAP | Host-Network|
 
+- Networking Protocol :TCP/IP Examples
 
-- Networking Protocol :TCP/IP 
+    ![Protocols](https://user-images.githubusercontent.com/64456846/83989130-66926680-a980-11ea-9808-f5ff45418c86.png)
+ 
 
 > IP는 길찾기 하는 역할   
 
-- TCP/IP
-    - **TCP stands for Transmission Control Protocol​** : TCP software breaks messages into packets, hands them off to the IP software for delivery, and then orders and reassembles the packets at their destination​   
-    - **IP stands for Internet Protocol​** : IP software deals with the routing of packets through the maze of interconnected networks to their final destination​
 
 ## 6.  High-Level Protocols
+
+## 7.  High-Level Protocols
     - **SMTP :**
     - **FTP :**
     - **Telnet :**
     - **http :** 
 
-## 7.**MIME Types** : Multipurpose Internet Mail Extension​
+## 8.**MIME Types** : Multipurpose Internet Mail Extension​
 > 메일은 텍스트로만 되어 있었는데 signature 등이 추가되어서 extension 됨. 네트워크요청시 어떤 request 인지를 specify 해주는게 port 임, Protocol은 단순 그냥 앱이라고 보면 됨 
 
     - Protocol/Port
 
-## 8 Firewalls​
+## 9 Firewalls​
 > 들어오는 Request를 보고 판단한다. 네트워크상의 서버인데 보안솔루션 잔뜩 깔려져 있는 서버
 
 
-## 9. Routing
+## 10. Routing
 > tcp/ip이 ip가 라우팅을 하는 것임
 
 -
