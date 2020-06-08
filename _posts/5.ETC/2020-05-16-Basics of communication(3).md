@@ -87,20 +87,24 @@ tag :
 
 ## 5. CSMA/CD vs Token Bus  
 
-- 참고링크 : [매체접근방식](http://blog.naver.com/PostView.nhn?blogId=stop2y&logNo=100209824948&parentCategoryNo=&categoryNo=40&viewDate=&isShowPopularPosts=false&from=postView)
+- 참고이미지 및 링크 : [매체접근방식](http://blog.naver.com/PostView.nhn?blogId=stop2y&logNo=100209824948&parentCategoryNo=&categoryNo=40&viewDate=&isShowPopularPosts=false&from=postView)
 
-|매체접근방식| BUS | Tree/Star | Ring|
-|---|:---:|:---:|:---:|
-|CSMA/CD|O|O||
-|Token Bus|O|O||
-|Token Ring|||O|  
+    ![CSMA/CD_TOKEN](https://user-images.githubusercontent.com/64456846/83989931-efaa9d00-a982-11ea-90c7-9208108f2512.png)
 
- 
-- Under heavy loads, CSMA/CD performs poorly.​
-- Deterministic delay in token bus: important for process control​
-- Priority can be assigned in token bus​
-- Complexity of Token bus​
-- Token bus uses broadband (analog) transmission​
+- 분류 
+
+    |매체접근방식| BUS | Tree/Star | Ring|
+    |---|:---:|:---:|:---:|
+    |CSMA/CD|O|O||
+    |Token Bus|O|O||
+    |Token Ring|||O|  
+
+- 특징
+    - Under heavy loads, CSMA/CD performs poorly.​
+    - Deterministic delay in token bus: important for process control​
+    - Priority can be assigned in token bus​
+    - Complexity of Token bus​
+    - Token bus uses broadband (analog) transmission​
 
 
 ## 6. Token Ring (IEEE 802.5) ​  
@@ -117,9 +121,7 @@ tag :
 
 ## 질문사항 : ETHERNET FDDI?
 
-
- ly the ultimate
-wide-area network, spanning the entire globe
+ 
 
 # [3]. WAN : Wide-Area Network  
 
@@ -203,30 +205,64 @@ wide-area network, spanning the entire globe
 > IP는 길찾기 하는 역할   
 
 
-## 6.  High-Level Protocols
+## 6. UDP : User Datagram Protocol
+- It is an alternative to TCP
+-  The main difference is that TCP is highly reliable, at the cost of decreased performance, while UDP is less reliable, but generally faster
 
 ## 7.  High-Level Protocols
-    - **SMTP :**
-    - **FTP :**
+- Other protocols build on the foundation established by the
+TCP/IP protocol suite  
+    - **SMTP :** Simple Mail Transfer Protocol
+    - **FTP :** File Transfer Protocol
     - **Telnet :**
-    - **http :** 
+    - **http :** Hyper Text Transfer Protocol
 
-## 8.**MIME Types** : Multipurpose Internet Mail Extension​
+## 8.**MIME** : Multipurpose Internet Mail Extension​
 > 메일은 텍스트로만 되어 있었는데 signature 등이 추가되어서 extension 됨. 네트워크요청시 어떤 request 인지를 specify 해주는게 port 임, Protocol은 단순 그냥 앱이라고 보면 됨 
 
+1). MIME
+- Related to the idea of network protocols and standardization is the concept of a file’s MIME type
+- Based on a document’s MIME type, an application program can decide how to deal with the data it is given
     - Protocol/Port
 
+2). MIME Type
+
+|Protocol|Port|
+|---|---|
+|Echo|7|
+|File Transfer Protocol(FTP)|21|
+|Telnet|23|
+|Simple Mail Transfer Protocol(SMTP)|25|
+|Domain Name Service(DNS)|53|
+|Gopher|70|
+|Finger|79|
+|Hyper Text Transfer Protocol(HTTP)|80|
+|Post Office Protocol(POP3)|110|
+|Network News Transfer Protocol(NNTP)|119|
+|Internet Relay Chat(IRC)|6667|
+
+
+ 
 ## 9 Firewalls​
 > 들어오는 Request를 보고 판단한다. 네트워크상의 서버인데 보안솔루션 잔뜩 깔려져 있는 서버
 
+- Firewalls​ : A machine and its software that serve as a special gateway to a network, protecting it from inappropriate access
+
+    ​![Firewalls](https://user-images.githubusercontent.com/64456846/83990383-6dbb7380-a984-11ea-95f9-476413ae9cc5.png)
+
+    - Filters the network traffic that comes in, checking the validity of the messages as much as possible and perhaps denying some messages altogether
+    - Enforces an organization’s access control policy
 
 ## 10. Routing
-> tcp/ip이 ip가 라우팅을 하는 것임
 
--
+> tcp/ip이 ip가 라우팅을 하는 것임
+- 참고자료(수업) : [Connecting between diffrent protocols](https://youtu.be/1z0ULvg_pW8)
+
+- ![Routing](https://user-images.githubusercontent.com/64456846/83990475-cab72980-a984-11ea-83a8-62d86f2f6881.png)
+
  
 
-[Connecting between diffrent protocols](https://youtu.be/1z0ULvg_pW8)
+
 
 # [4]. Switching Technologies 
 > 패킷스위칭은 두가지 방식으로 WLN 데이터그램, 버츄얼서킷방식이 있다. 우리가 매일 쓰는게 버츄얼
@@ -287,8 +323,23 @@ These networks are provided by companies such as AT&T, GTE, and IBM​
     protocol://domain_name[:port] /path_name/file_name​  
 
 ## 3. WEB
-​
+> 월드 와이드 웹(World Wide Web, WWW, W3)은 인터넷에 연결된 컴퓨터를 통해 사람들이 정보를 공유할 수 있는 전 세계적인 정보 공간을 말한다. 간단히 웹(Web)이라 부르는 경우가 많다. 이 용어는 인터넷과 동의어로 쓰이는 경우가 많으나 엄격히 말해 서로 다른 개념이다. 웹은 전자 메일과 같이 인터넷 상에서 동작하는 하나의 서비스일 뿐이다. 그러나 1993년 이래로 웹은 인터넷 구조의 절대적 위치를 차지하고 있다.
+
+> 인터넷에서 HTTP 프로토콜, 하이퍼텍스트, HTML형식 등을 사용하여 그림과 문자를 교환하는 전송방식을 말하기도 한다.
+
+​- WEB Architecture
+
+
 ## 4. Client/server 
+
+- ![Clientserver](https://user-images.githubusercontent.com/64456846/83992229-89297d00-a98a-11ea-9aa7-17b41b98f592.png)
+
+## 5. HTTP
+> HTTP(HyperText Transfer Protocol)는 WWW 상에서 정보를 주고받을 수 있는 프로토콜이다. 주로 HTML 문서를 주고받는 데에 쓰인다. TCP와 UDP를 사용하며, 80번 포트를 사용한다. 
+
+> HTTP는 클라이언트와 서버 사이에 이루어지는 요청/응답(request/response) 프로토콜이다. 예를 들면, 클라이언트인 웹 브라우저가 HTTP를 통하여 서버로부터 웹페이지나 그림 정보를 요청하면, 서버는 이 요청에 응답하여 필요한 정보를 해당 사용자에게 전달하게 된다. 이 정보가 모니터와 같은 출력 장치를 통해 사용자에게 나타나는 것이다.
+
+> HTTP를 통해 전달되는 자료는 http:로 시작하는 URL(인터넷 주소)로 조회할 수 있다.
 
 - Evolution of Computing
 - HTTP Protocol
