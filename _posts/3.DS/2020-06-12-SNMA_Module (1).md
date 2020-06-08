@@ -1,6 +1,6 @@
 ---
-title: "SNA : Social Network Analysis"
-date: 9999-12-31
+title: "SNA : SNMA_Module (1)"
+date: 2020-06-08
 author_profile: false
 toc: true
 toc_sticky: true
@@ -109,7 +109,7 @@ tags:
 - 파일Lecture5-practice-centralities[SOLUTION].ipynb파일
 - 파일Lecture6-practice-correlated_networks[SOLUTION].ipynb파일
 
-# 7주차 (4/29) SPECIAL TOPIC1 : Innovation and Success
+# 7주차 (4/29)  : SPECIAL TOPIC 1
 
 1). 강의목록
 - 강의콘텐츠Lecture7-special_topic1강의콘텐츠
@@ -160,7 +160,7 @@ tags:
 - 강의콘텐츠Lecture11-spreading_phenomena2.pdf강의콘텐츠
 - 동영상week10-spreading_phenomena2동영상 02:59:54
 
-# 11주차 SPECIAL TOPIC 2 : Fake news/Online news consumption
+# 11주차 : SPECIAL TOPIC 2
 
 1). 강의목록
 - 강의콘텐츠Lecture12-special_topic2강의콘텐츠
