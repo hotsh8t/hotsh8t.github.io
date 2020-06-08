@@ -15,7 +15,6 @@ tags:
 # 강의내역 
 ## 8주차 (5/6) Bipartite and Community
 
-1). 강의목록
 - **강의콘텐츠Lecture8-bipartite강의콘텐츠**
 - 동영상Lecture8-bipartite_part1동영상 24:52이수함
 - 동영상Lecture8-bipartite_part2동영상 19:41이수함
@@ -30,7 +29,6 @@ tags:
 
 ## 9주차 (5/13) spreading phenomena 1
 
-1). 강의목록
 - **강의콘텐츠Lecture10-spreading_phenomena1.pdf강의콘텐츠**
 - 동영상Lecture10-spreading_phenomena1-part1동영상 13:00이수함
 - 동영상Lecture10-spreading_phenomena1-part2동영상 28:36이수함
@@ -43,7 +41,6 @@ tags:
 
 ## 10주차 spreading phenomena 2 (Robustness & Spreading)
 
-1). 강의목록
 - 파일Lecture10-Robustness.ipynb파일
 - 파일Lecture10-Spreading.ipynb파일
 - 파일internet.net파일
@@ -51,15 +48,18 @@ tags:
 - **강의콘텐츠Lecture11-spreading_phenomena2.pdf강의콘텐츠**
 - 동영상week10-spreading_phenomena2동영상 02:59:54
 
+
+
+
+
 ## 8주차 (5/6) Bipartite and Community
 
-## 동영상Lecture8-bipartite_part1동영상 24:52이수함
-## 동영상Lecture8-bipartite_part2동영상 19:41이수함 
-## 동영상Lecture8-bipartite-practice동영상 15:47이수함 
-## 동영상Lecture9-community_part1동영상 18:23이수함
-## 동영상Lecture9-community_part2동영상 22:56이수함
-## 파일Lecture9-community.ipynb파일
-## 동영상Lecture9-community-practice동영상 10:07이수함
+### 동영상Lecture8-bipartite_part1동영상 24:52이수함
+### 동영상Lecture8-bipartite_part2동영상 19:41이수함 
+### 동영상Lecture8-bipartite-practice동영상 15:47이수함 
+### 동영상Lecture9-community_part1동영상 18:23이수함
+### 동영상Lecture9-community_part2동영상 22:56이수함 
+### 동영상Lecture9-community-practice동영상 10:07이수함
 
 
 ## 9주차 (5/13) spreading phenomena 1
