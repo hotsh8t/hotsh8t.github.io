@@ -226,20 +226,20 @@ TCP/IP protocol suite
     - Protocol/Port
 
 2). MIME Type
-
-|Protocol|Port|
-|---|---|
-|Echo|7|
-|File Transfer Protocol(FTP)|21|
-|Telnet|23|
-|Simple Mail Transfer Protocol(SMTP)|25|
-|Domain Name Service(DNS)|53|
-|Gopher|70|
-|Finger|79|
-|Hyper Text Transfer Protocol(HTTP)|80|
-|Post Office Protocol(POP3)|110|
-|Network News Transfer Protocol(NNTP)|119|
-|Internet Relay Chat(IRC)|6667|
+- Type
+    |Protocol|Port|
+    |---|---|
+    |Echo|7|
+    |File Transfer Protocol(FTP)|21|
+    |Telnet|23|
+    |Simple Mail Transfer Protocol(SMTP)|25|
+    |Domain Name Service(DNS)|53|
+    |Gopher|70|
+    |Finger|79|
+    |Hyper Text Transfer Protocol(HTTP)|80|
+    |Post Office Protocol(POP3)|110|
+    |Network News Transfer Protocol(NNTP)|119|
+    |Internet Relay Chat(IRC)|6667|
 
 
  
@@ -267,25 +267,73 @@ TCP/IP protocol suite
 # [4]. Switching Technologies 
 > 패킷스위칭은 두가지 방식으로 WLN 데이터그램, 버츄얼서킷방식이 있다. 우리가 매일 쓰는게 버츄얼
 
-- 그림
 
-## 1. Circuit Switching​  
+
+## 1. Switching Technology: Saving Links but Securing a Path
+
+- 그림
+    ![Switching](https://user-images.githubusercontent.com/64456846/83993576-c8f26380-a98e-11ea-800b-2ff842748ac4.png)
+
+- Two different switching technologies
+    - Circuit switching
+    - Packet switching
+    
+## 2. Circuit Switching​  
 + **Public Circuit Switched Network** : One way only
     + [그림]
     > 동시 접속자만큼 쓸때마다 롱디스턴스 라인을 연결해줌(자동접속기가) 
 
     + 
-## 3. Datagram 
+
+## 3. Packet switching
+
+1). Packet Switching Principles
+
+2). Packet Switching Technique
+
+## 4. Datagram 
 > 동영상 zoom 같은거는 순서가 제대로 들어오는것이 중요하다. 리셔플링불가
 
 
 
-## 4. Virtual Circuit
+## 5. Virtual Circuit
 > 순서가 뒤바뀌지 않게 가는길을 하나로 fix, 1,2,3번은 가는 line만 가기 때문에 순서가 바뀔일은 없다. VPN
 
-## 5. Datagram vs Virtual Circuit
+## 6. Datagram vs Virtual Circuit
 > 
- 
+
+- **Virtual circuits** 
+    - Network can provide sequencing (packets arrive at the same order) and error control (retransmission between two nodes).
+    - Packets are forwarded more quickly
+        - Based on the virtual circuit identifier
+        - No routing decisions to make
+    - Less reliable
+        - If a node fails, all virtual circuits that pass through that node fail.
+- **Datagram**
+    - No call setup phase
+        - Good for bursty data, such as Web applications
+    - More flexible
+        - If a node fails, packets may find an alternate route
+        - Routing can be used to avoid congested parts of the network
+
+- **Comparison of communication switching techniques**
+
+    |Circuit Switching| Datagram Packet Switching | Virtual Circuit Switching|
+    |---|---|---|
+    |Dedicated transmission path|No dedicated path|No dedicated path|
+    |Continuous transmission of data|Transmission of packets|Transmission of packets|
+    |Fast enough for interactive|Fast enough for interactive|Fast enough for interactive|
+    |Messages are not stored|Packets may be stored until delivered|Packets stored until delivered|
+    |THe path is estabilished for entire conversation|Route estabilished for each packet|Route estabilished for entire conversation|
+    |Call setup delay; negligible transmission delay|Packet transmission delay|Call setup dealy; packet transmission delay|
+    |Busy signal if called party busy|Sender may be notified if packet not delivered |Sender notified of connection denial|
+    |Overload may block call setup; no dealy for estabilised calls|Overload increses packet dealy|OVerlaod may block call setup; increses packet dealy|
+    |Electromechanical or computerized switching nodes|Small switching nodes|Small switching nodes|
+    |User responsible ofr message loss protection|Network may be responsible for individual packets|Network may be responsible for packet sequences|
+    |Usually no speed or code conversion |Speed and code conversion |Speed and code conversion|
+    |Fixed bandwidth|Dynamic use of bandwidth|Dynamic use of bandwidth|
+    |No overhead bits after call setup|Overhead bits in each packet|Overhead bits in each packet|
+
 
 # [5]. Internet
 ## 1. Internet Connections​
@@ -316,6 +364,16 @@ These networks are provided by companies such as AT&T, GTE, and IBM​
 ## 2.  URL :
 > 웹이 나오면서 PORT를 따로 관리 하는게 아니라 Uniform 하게 인터넷상에 붙어있는 모든 컨텐츠를 하나의 방식으로 찾아가는 주소 표준이다. 앞에는 프로토콜이름, 도메인서버이름, 옵셔널포트이름, filepath
 
+> URL(Uniform Resource Locator 또는 web address, 문화어: 파일식별자, 유일자원지시기)은 네트워크 상에서 자원이 어디 있는지를 알려주기 위한 규약이다. 즉, 컴퓨터 네트워크와 검색 메커니즘에서의 위치를 지정하는, 웹 리소스에 대한 참조이다. 흔히 웹 사이트 주소로 알고 있지만, URL은 웹 사이트 주소뿐만 아니라 컴퓨터 네트워크상의 자원을 모두 나타낼 수 있다. 그 주소에 접속하려면 해당 URL에 맞는 프로토콜을 알아야 하고, 그와 동일한 프로토콜로 접속해야 한다.
+
+> FTP 프로토콜인 경우에는 FTP 클라이언트를 이용해야 하고, HTTP인 경우에는 웹 브라우저를 이용해야 한다. 텔넷의 경우에는 텔넷 프로그램을 이용해서 접속해야 한다.
+
+>URL은 제일 앞에 자원에 접근할 방법을 정의해 둔 프로토콜 이름을 적는다. gopher, telnet, ftp, http, usenet 등이다. 프로토콜 이름 다음에는 프로토콜 이름을 구분하는 구분자인 ":"을 적는다.
+만약 IP 혹은 Domain name 정보가 필요한 프로토콜이라면 ":" 다음에 "//"를 적는다.
+프로토콜명 구분자인 ":" 혹은 "//" 다음에는 프로토콜 마다 특화된 정보를 넣는다.
+- 예1) http://www.somehost.com/a.gif - IP 혹은 Domain name 정보가 필요한 형태 ( www.somehost.com에 있는 a.gif를 가리키고 있음 )
+- 예2) ftp://id:pass@192.168.1.234/a.gif - IP 혹은 Domain name 정보가 필요한 형태 ( 192.168.1.234에 있는 a.gif를 가리키고 있음 )
+- 예3) mailto:somebody@mail.somehost.com - IP정보가 필요없는 프로토콜 ( mailto 프로토콜은 단지 메일을 받는 사람의 주소를 나타냄 )
 - URL identifies a specific resource on a server in a domain​
 - URL tells what protocol to use to access the resource​
 - URL format:​
@@ -323,9 +381,13 @@ These networks are provided by companies such as AT&T, GTE, and IBM​
     protocol://domain_name[:port] /path_name/file_name​  
 
 ## 3. WEB
-> 월드 와이드 웹(World Wide Web, WWW, W3)은 인터넷에 연결된 컴퓨터를 통해 사람들이 정보를 공유할 수 있는 전 세계적인 정보 공간을 말한다. 간단히 웹(Web)이라 부르는 경우가 많다. 이 용어는 인터넷과 동의어로 쓰이는 경우가 많으나 엄격히 말해 서로 다른 개념이다. 웹은 전자 메일과 같이 인터넷 상에서 동작하는 하나의 서비스일 뿐이다. 그러나 1993년 이래로 웹은 인터넷 구조의 절대적 위치를 차지하고 있다.
+> 월드 와이드 웹(World Wide Web, WWW, W3)은 인터넷에 연결된 컴퓨터를 통해 사람들이 정보를 공유할 수 있는 전 세계적인 정보 공간을 말한다. 간단히 웹(Web)이라 부르는 경우가 많다. 이 용어는 인터넷과 동의어로 쓰이는 경우가 많으나 엄격히 말해 서로 다른 개념이다. 웹은 전자 메일과 같이 인터넷 상에서 동작하는 하나의 서비스일 뿐이다. 그러나 1993년 이래로 웹은 인터넷 구조의 절대적 위치를 차지하고 있다. 인터넷에서 HTTP 프로토콜, 하이퍼텍스트, HTML형식 등을 사용하여 그림과 문자를 교환하는 전송방식을 말하기도 한다.
 
-> 인터넷에서 HTTP 프로토콜, 하이퍼텍스트, HTML형식 등을 사용하여 그림과 문자를 교환하는 전송방식을 말하기도 한다.
+> 인터넷상의 정보를 하이퍼텍스트 방식과 멀티미디어 환경에서 검색할 수 있게 해주는 정보검색 시스템이다. 하이퍼텍스트 형식으로 표현된 인터넷상의 다양한 정보를 효과적으로 검색하는 시스템으로 전 세계적으로 가장 널리 보급되어 있다.
+
+> 하이퍼텍스트는 웹 브라우저라 불리는 프로그램을 통해 웹 서버에서 "문서"나 웹 페이지등의 정보 조각을 읽어들여 컴퓨터 모니터에 출력하는 형태로 보이게 된다. 그러고 나서 사용자는 각 페이지에 있는 하이퍼링크를 따라 다른 문서로 이동하거나, 그 페이지를 서비스하고 있는 서버로 일련의 정보를 보낼 수도 있다. 하이퍼링크를 따라 이동하는 행위를 흔히 웹 서핑(web surfing, 문화어: 망유람[2]) 또는 웹 브라우징이라 한다. 그리고 관련된 내용들이 모여있는 웹 페이지들의 집합을 웹 사이트라 한다. 영어 단어 월드와이드(worldwide)는 보통 공백이나 하이픈 없이 한 단어로 쓰이지만, 월드 와이드 웹(World Wide Web)과 그 약어인 WWW는 공식적인 영어 낱말로 사용되고 있다.
+
+> 월드 와이드 웹은 다음의 세가지 기능으로 요약할 수 있겠다. 첫 번째 통일된 웹 자원의 위치 지정 방법 예를 들면 URL. 두 번째 웹의 자원 이름에 접근하는 프로토콜(protocol) 예를 들면 HTTP, 세 번째 자원들 사이를 쉽게 항해 할 수 있는 언어 예를 들면 HTML
 
 ​- WEB Architecture
 
@@ -354,9 +416,7 @@ These networks are provided by companies such as AT&T, GTE, and IBM​
 - Cyber-Identity​
 
  
-
-
-
+ 
 
 # [6]. IoT and LoRa
 
