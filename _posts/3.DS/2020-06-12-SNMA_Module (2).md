@@ -52,7 +52,7 @@ tags:
 
 
 
-## 8주차 (5/6) Bipartite and Community
+# 8주차 (5/6) Bipartite and Community
 
 ### 동영상Lecture8-bipartite_part1동영상 24:52이수함
 ### 동영상Lecture8-bipartite_part2동영상 19:41이수함 
@@ -62,7 +62,7 @@ tags:
 ### 동영상Lecture9-community-practice동영상 10:07이수함
 
 
-## 9주차 (5/13) spreading phenomena 1
+# 9주차 (5/13) spreading phenomena 1
 
 1). 강의목록
 ## 동영상Lecture10-spreading_phenomena1-part1동영상 13:00이수함
