@@ -12,36 +12,14 @@ tags:
   - SMNA
 ---
 
-# [1주차 (3/18)] Introduction to SNA 
-
-## 1). 강의목록
-
-- 강의콘텐츠Lecture0-Course_introduction강의콘텐츠
-- 강의콘텐츠Lecrure0-Project_guidelines강의콘텐츠
-- 강의콘텐츠Lecture0-Introduction_to_SNA강의콘텐츠
-
-## 2). 강의내용
-
-- 동영상Lecture0-Course_introduction동영상 17:34이수함
-- 동영상Lecrure0-Project_guidelines동영상 12:58이수함
-- 동영상Lecture0-Introduction_- to_SNA_part1동영상 13:42이수함
-- 동영상Lecture0-Introduction_to_SNA_part2동영상 12:48이수함
-- 동영상Lecture0-Introduction_to_SNA_part3동영상 27:14이수함
-- 동영상Lecture0-Introduction_to_SNA_part4동영상 06:23이수함
-
-
  
-# [8주차 (5/6)] Bipartite and Community
-
-## 1) 강의목록
+# [8주차 (5/6)] Bipartite and Community<br>
+## 1) 강의목록<br>
 - 강의콘텐츠Lecture8-bipartite강의콘텐츠
 - 강의콘텐츠Lecture9-community강의콘텐츠
 
-## 2) 강의내용
-
-## - 동영상Lecture8-bipartite_part1동영상 24:52이수함
-
-
+## 2) 강의내용<br>
+## - Lecture8-bipartite_part1 24:52<br>
 1). 사례 
     - business district - business items
     - food ingredients - food recipes 
@@ -62,9 +40,7 @@ tags:
 - **Coexhibition network** : Artist institution 을 참고로 구성
 
 
-## - 동영상Lecture8-bipartite_part2동영상 19:41이수함
-
-
+## - Lecture8-bipartite_part2 19:41<br>
 1). 모델 구성 관점
 - Node/Link 를 구성하는 새로운 방식
 
@@ -78,10 +54,9 @@ tags:
 - **논문** : Controllability of complex networks
  
 
-## - 동영상Lecture8-bipartite-practice동영상 15:47이수함
+## - Lecture8-bipartite-practice 15:47<br>
 
-## - 동영상Lecture9-community_part1동영상 18:23이수함
-
+## - Lecture9-community_part1 18:23<br>
 > small world 네트워크의 구조적인 속성이 이해 됨, 그룹 사이에서의 긴밀한 관계를 통해서 high clustering coefficient 가 구현이 되고 다른 그룹간의 연결을 지어주면서 네트워크 노드 사이에 shortest path를 줄여주는 속성을 두가지를 모두 함께 구현할 수 있는 social network 의 구조적인 속성
 
 - 예시 
@@ -114,53 +89,71 @@ tags:
     
 
 
-## 동영상Lecture9-community_part2동영상 22:56이수함
+## Lecture9-community_part2 22:56<br>
 
-## 동영상Lecture9-community-practice동영상 10:07이수함
+## Lecture9-community-practice 10:07<br>
 
-## 3) 강의정리
+## 3) 강의정리<br>
 
-## 4) 실습
-
-
+## 4) 실습 및 과제<br>
 - 파일Lecture8-bipartite.ipynb파일
 - 파일github.csv파일
 - 파일Lecture9-community.ipynb파일
 
 
-## 5) 과제
+## 5) 과제<br>
 
 
-# [9주차 (5/13)] spreading phenomena 1
+# [9주차 (5/13)] spreading phenomena 1<br>
 
-## 1) 강의목록
+## 1) 강의목록<br>
+- 강의콘텐츠Lecture10-spreading_phenomena1.pdf강의콘텐츠
+- 강의콘텐츠Additional_readings.pdf강의콘텐츠
 
-## - 강의콘텐츠Lecture10-spreading_phenomena1.pdf강의콘텐츠
-## - 강의콘텐츠Additional_readings.pdf강의콘텐츠
+## 2) 강의내용<br>
+## - Lecture10-spreading_phenomena1-part1 13:00
+## - Lecture10-spreading_phenomena1-part2 28:36
+## - Lecture10-spreading_phenomena1-part3 22:59
+## - Lecture10-spreading_phenomena1-part4 10:57
+## - Lecture10-spreading_phenomena1-part5 16:02
+## - Lecture10-spreading_phenomena1-part6 19:29
+## 3) 강의정리<br>
 
-## 2) 강의내용
-## - 동영상Lecture10-spreading_phenomena1-part1동영상 13:00이수함
-## - 동영상Lecture10-spreading_phenomena1-part2동영상 28:36이수함
-## - 동영상Lecture10-spreading_phenomena1-part3동영상 22:59이수함
-## - 동영상Lecture10-spreading_phenomena1-part4동영상 10:57이수함
-## - 동영상Lecture10-spreading_phenomena1-part5동영상 16:02이수함
-## - 동영상Lecture10-spreading_phenomena1-part6동영상 19:29이수함
-
+## 4) 실습 및 과제<br>
 - 파일Additional_readings.zip파일
 
-# [10주차 (5/20)] spreading phenomena 2 (Robustness & Spreading)
+# [10주차 (5/20)] spreading phenomena 2 (Robustness & Spreading)<br>
 
-## 1) 강의목록
-## - 강의콘텐츠Lecture11-spreading_phenomena2.pdf강의콘텐츠
+## 1) 강의목록<br>
+- 강의콘텐츠Lecture11-spreading_phenomena2.pdf강의콘텐츠
 
-## 2) 강의내용
-## - 파일Lecture10-Robustness.ipynb파일
-## - 파일Lecture10-Spreading.ipynb파일
-## - 파일internet.net파일
-## - 파일lesmiserables.gml파일
-## - 동영상week10-spreading_phenomena2동영상 02:59:54
+## 2) 강의내용<br>
+## - week10-spreading_phenomena2 02:59:54<br>
 
- 
+## 3) 강의정리<br>
+
+## 4) 실습 및 과제<br>
+- 파일Lecture10-Robustness.ipynb파일
+- 파일Lecture10-Spreading.ipynb파일
+- 파일internet.net파일
+- 파일lesmiserables.gml파일
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # [8주차 (5/6)] Bipartite and Community
 
@@ -177,7 +170,7 @@ tags:
 
 # [9주차 (5/13)] spreading phenomena 1
 
-1). 강의목록
+## 1) 강의목록
 ## 동영상Lecture10-spreading_phenomena1-part1동영상 13:00이수함
 ## 동영상Lecture10-spreading_phenomena1-part2동영상 28:36이수함
 ## 동영상Lecture10-spreading_phenomena1-part3동영상 22:59이수함
@@ -187,10 +180,12 @@ tags:
 
 # [10주차 (5/20)] spreading phenomena 2 (Robustness & Spreading)
 
-1). 강의목록 
-## 동영상week10-spreading_phenomena2동영상 02:59:54
+## 1) 강의목록<br>
+## 동영상week10-spreading_phenomena2동영상 02:59:54<br>
 
+## 2) 강의내용<br>
 
+## 3) 강의정리<br>
 
 This post lives in the future and is dated {{ page.date | date: "%c" }}. When building Jekyll with the `--future` flag it should appear.
 ## 동영상Lecture8-bipartite-practice동영상 15:47이수함 
