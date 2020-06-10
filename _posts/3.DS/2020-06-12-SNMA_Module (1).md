@@ -124,12 +124,12 @@ tags:
 - 강의콘텐츠Lecture4-scale_free_networks강의콘텐츠7:02이수함
 
 # 2) 강의내용<br>
-## - Lecture4-scale_free_networks_part1 04:33
-## - Lecture4-scale_free_networks_part2 12:58
-## - Lecture4-scale_free_networks_part3 26:13
-## - Lecture4-scale_free_networks_part4 10:35
-## - Lecture4-scale_free_networks_part5 17:02
-## - Lecture4-practice-scale_free_networks 22:18
+## - Lecture4-scale_free_networks_part1 04:33<br>
+## - Lecture4-scale_free_networks_part2 12:58<br>
+## - Lecture4-scale_free_networks_part3 26:13<br>
+## - Lecture4-scale_free_networks_part4 10:35<br>
+## - Lecture4-scale_free_networks_part5 17:02<br>
+## - Lecture4-practice-scale_free_networks 22:18<br>
 
 # 3) 강의정리<br>
 
@@ -152,13 +152,13 @@ tags:
 - 강의콘텐츠Lecture6-correlated_networks강의콘텐츠
 
 # 2) 강의내용<br>
-## - Lecture5-centralities_part1 17:48
-## - Lecture5-centralities_part2 25:16
-## - Lecture5-centralities_part3 16:58
-## - Lecture6-correlated_networks_part1 18:51
-## - Lecture6-correlated_networks_part2 28:46
-## - Lecture5-practice-centralities 18:47
-## - Lecture6-practice-correlated_networks 06:33
+## - Lecture5-centralities_part1 17:48<br>
+## - Lecture5-centralities_part2 25:16<br>
+## - Lecture5-centralities_part3 16:58<br>
+## - Lecture6-correlated_networks_part1 18:51<br>
+## - Lecture6-correlated_networks_part2 28:46<br>
+## - Lecture5-practice-centralities 18:47<br>
+## - Lecture6-practice-correlated_networks 06:33<br>
 ## - HW6_intro 03:51
 
 # 3) 강의정리<br>
@@ -179,121 +179,6 @@ tags:
 - 파일Lecture6-practice-correlated_networks[SOLUTION].ipynb파일
 
 -------------------------------
--------------------------------
-# [7주차 (4/29)] SPECIAL TOPIC 1<br>
-----------
-# 1). 강의목록<br>
-- 강의콘텐츠Lecture7-special_topic1강의콘텐츠
 
-# 2) 강의내용<br>
-## - Lecture7-special_topic1_part1 37:20
-## - Lecture7-special_topic1_part2 10:38
-## - Lecture7-special_topic1_part3 08:30
-## - Lecture7-special_topic1_part4 22:01
-## - Lecture7-special_topic1_part5 16:52
-## - [Zoom] special topic1_part6 01:06:32
-
-# 3) 강의정리<br>
-
-# 4) 실습 및 과제<br>
- 
----------- 
-# [8주차 (5/6)] Bipartite and Community<br>  
-----------
-# 1) 강의목록<br>
-- 강의콘텐츠Lecture8-bipartite강의콘텐츠
-- 강의콘텐츠Lecture9-community강의콘텐츠
-
-# 2) 강의내용<br>
-## - Lecture8-bipartite_part1 24:52
-## - Lecture8-bipartite_part2 19:41
-## - Lecture8-bipartite-practice 15:47
-## - Lecture9-community_part1 18:23
-## - Lecture9-community_part2 22:56
-
-
-# 3) 강의정리<br>
-
-# 4) 실습 및 과제<br>
-- 동영상Lecture9-community-practice동영상 10:07이수함
-- 파일Lecture8-bipartite.ipynb파일
-- 파일github.csv파일
-- 파일Lecture9-community.ipynb파일
-
----------- 
-# [9주차 (5/13)] spreading phenomena 1<br>
----------- 
-# 1) 강의목록<br>
-- 강의콘텐츠Lecture10-spreading_phenomena1.pdf강의콘텐츠
-- 강의콘텐츠Additional_readings.pdf강의콘텐츠
-- 파일Additional_readings.zip파일
-
-# 2) 강의내용<br>
-## - Lecture10-spreading_phenomena1-part1 13:00
-## - Lecture10-spreading_phenomena1-part2 28:36
-## - Lecture10-spreading_phenomena1-part3 22:59
-## - Lecture10-spreading_phenomena1-part4 10:57
-## - Lecture10-spreading_phenomena1-part5 16:02
-## - Lecture10-spreading_phenomena1-part6 19:29
-
-# 3) 강의정리<br>
-
-# 4) 실습 및 과제<br>
-
----------- 
-# [10주차 (5/20)] spreading phenomena 2 (Robustness & Spreading)<br>
----------- 
-# 1) 강의목록<br>
-- 강의콘텐츠Lecture11-spreading_phenomena2.pdf강의콘텐츠
-
-# 2) 강의내용<br>
-## - 동영상week10-spreading_phenomena2동영상 02:59:54
-
-# 3) 강의정리<br>
-
-# 4) 실습 및 과제<br>
-1).실습
-- 파일lesmiserables.gml파일
-- 파일Lecture10-Robustness.ipynb파일
-- 파일Lecture10-Spreading.ipynb파일
-- 파일internet.net파일
----------- 
----------- 
-# [11주차 (5/27)] : SPECIAL TOPIC 2<br>
----------- 
-# 1) 강의목록<br>
-- 강의콘텐츠Lecture12-special_topic2강의콘텐츠
-
-# 2) 강의내용<br>
-## - 동영상week11-special_topic2동영상 02:40:11
-
-# 3) 강의정리<br>
-
-# 4) 실습 및 과제<br>
-- 파일Lecture12-materials.zip파일
-
----------- 
----------- 
-# [12주차 (6/3)] Get clean and preprocessing data 1<br>
----------- 
-# 1) 강의목록<br>
-- Lecture13-Get_clean_and_preprocessing_data1강의콘텐츠
-
-# 2) 강의내용<br>
-## -  동영상week12-get_clean_preprocessing_data1동영상 02:31:48
-
-# 3) 강의정리<br>
-
-# 4) 실습 및 과제<br>
-- 파일Lecture13-Get_clean_and_preprocessing_data1.ipynb파일
-
----------- 
-# 13주차
----------- 
-# 14주차
-
-# 15주차
-
-# 16주차
 
 This post lives in the future and is dated {{ page.date | date: "%c" }}. When building Jekyll with the `--future` flag it should appear.

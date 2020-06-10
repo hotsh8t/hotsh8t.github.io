@@ -105,25 +105,24 @@ tags:
 
 
 # [9주차 (5/13)] spreading phenomena 1<br>
-
 ## 1) 강의목록<br>
 - 강의콘텐츠Lecture10-spreading_phenomena1.pdf강의콘텐츠
 - 강의콘텐츠Additional_readings.pdf강의콘텐츠
 
 ## 2) 강의내용<br>
-## - Lecture10-spreading_phenomena1-part1 13:00
-## - Lecture10-spreading_phenomena1-part2 28:36
-## - Lecture10-spreading_phenomena1-part3 22:59
-## - Lecture10-spreading_phenomena1-part4 10:57
-## - Lecture10-spreading_phenomena1-part5 16:02
-## - Lecture10-spreading_phenomena1-part6 19:29
+## - Lecture10-spreading_phenomena1-part1 13:00<br>
+## - Lecture10-spreading_phenomena1-part2 28:36<br>
+## - Lecture10-spreading_phenomena1-part3 22:59<br>
+## - Lecture10-spreading_phenomena1-part4 10:57<br>
+## - Lecture10-spreading_phenomena1-part5 16:02<br>
+## - Lecture10-spreading_phenomena1-part6 19:29<br>
+
 ## 3) 강의정리<br>
 
 ## 4) 실습 및 과제<br>
 - 파일Additional_readings.zip파일
 
 # [10주차 (5/20)] spreading phenomena 2 (Robustness & Spreading)<br>
-
 ## 1) 강의목록<br>
 - 강의콘텐츠Lecture11-spreading_phenomena2.pdf강의콘텐츠
 
@@ -142,50 +141,6 @@ tags:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-# [8주차 (5/6)] Bipartite and Community
-
-## 1) 강의목록
-1). 동영상Lecture8-bipartite_part1동영상 24:52이수함
-
-## 동영상Lecture8-bipartite_part2동영상 19:41이수함  
-
-## 동영상Lecture9-community_part1동영상 18:23이수함
-
-## 동영상Lecture9-community_part2동영상 22:56이수함 
-
-
-
-# [9주차 (5/13)] spreading phenomena 1
-
-## 1) 강의목록
-## 동영상Lecture10-spreading_phenomena1-part1동영상 13:00이수함
-## 동영상Lecture10-spreading_phenomena1-part2동영상 28:36이수함
-## 동영상Lecture10-spreading_phenomena1-part3동영상 22:59이수함
-## 동영상Lecture10-spreading_phenomena1-part4동영상 10:57이수함
-## 동영상Lecture10-spreading_phenomena1-part5동영상 16:02이수함
-## 동영상Lecture10-spreading_phenomena1-part6동영상 19:29이수함  
-
-# [10주차 (5/20)] spreading phenomena 2 (Robustness & Spreading)
-
-## 1) 강의목록<br>
-## 동영상week10-spreading_phenomena2동영상 02:59:54<br>
-
-## 2) 강의내용<br>
-
-## 3) 강의정리<br>
 
 This post lives in the future and is dated {{ page.date | date: "%c" }}. When building Jekyll with the `--future` flag it should appear.
 ## 동영상Lecture8-bipartite-practice동영상 15:47이수함 
