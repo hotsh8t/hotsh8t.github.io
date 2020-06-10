@@ -21,12 +21,12 @@ tags:
 - 강의콘텐츠Lecture0-Introduction_to_SNA강의콘텐츠
 
 # 2) 강의내용<br>
-## - 동영상Lecture0-Course_introduction동영상 17:34이수함
-## - 동영상Lecrure0-Project_guidelines동영상 12:58이수함
-## - 동영상Lecture0-Introduction_to_SNA_part1동영상 13:42이수함
-## - 동영상Lecture0-Introduction_to_SNA_part2동영상 12:48이수함
-## - 동영상Lecture0-Introduction_to_SNA_part3동영상 27:14이수함
-## - 동영상Lecture0-Introduction_to_SNA_part4동영상 06:23이수함
+## - Lecture0-Course_introduction 17:34
+## - Lecrure0-Project_guidelines 12:58
+## - Lecture0-Introduction_to_SNA_part1 13:42
+## - Lecture0-Introduction_to_SNA_part2 12:48
+## - Lecture0-Introduction_to_SNA_part3 27:14
+## - Lecture0-Introduction_to_SNA_part4 06:23
 
 
 # 3) 강의정리<br>
@@ -46,10 +46,10 @@ tags:
 - 강의콘텐츠Lecture1-Visualize_your_network강의콘텐츠
 
 # 2) 강의내용<br>
-## - 동영상Lecture1-Basic_terminologies동영상 29:08이수함
-## - 동영상Lecture1-Visualize_your_network_part1동영상 21:47이수함
-## - 동영상Lecture1-Visualize_your_network_part2동영상 08:07이수함
-## - 동영상Lecture1-Visualize_your_network_part3동영상 14:50이수함
+## - Lecture1-Basic_terminologies 29:08
+## - Lecture1-Visualize_your_network_part1 21:47
+## - Lecture1-Visualize_your_network_part2 08:07
+## - Lecture1-Visualize_your_network_part3 14:50
 
 
 # 3) 강의정리<br>
@@ -68,12 +68,12 @@ tags:
 - 강의콘텐츠Lecture2-install_python강의콘텐츠
 
 # 2) 강의내용<br>
-## - 동영상Lecture2-small_world_networks_part1동영상 18:54이수함
-## - 동영상Lecture2-small_world_networks_part2동영상 13:36이수함
-## - 동영상Lecture2-small_world_networks_part3동영상 18:21이수함
-## - 동영상Lecture2-small_world_networks_part4동영상 16:26이수함
-## - 동영상Lecture2-small_world_networks_part5동영상 19:52이수함
-## - 동영상Lecture2-install_python동영상 12:24이수함
+## - Lecture2-small_world_networks_part1 18:54
+## - Lecture2-small_world_networks_part2 13:36
+## - Lecture2-small_world_networks_part3 18:21
+## - Lecture2-small_world_networks_part4 16:26
+## - Lecture2-small_world_networks_part5 19:52
+## - Lecture2-install_python 12:24
 
 # 3) 강의정리<br>
 
@@ -90,13 +90,13 @@ tags:
 - 강의콘텐츠Lecture3-python_and_networkx강의콘텐츠
 
 # 2) 강의내용<br>
-## - 동영상Lecture3-python_and_networkx동영상 19:46이수함
-## - 동영상Lecture3-python_crash-part1동영상 31:17이수함
-## - 동영상Lecture3-python_crash-part2동영상 21:04이수함
-## - 동영상Lecture3-python_crash-part3동영상 25:12이수함
-## - 동영상Lecture3-networkX_basics동영상 24:11이수함
-## - 동영상Lecture3-practice-small_world_networks동영상 38:02이수함
-## - 동영상Lecture3-HW5_intro동영상 02:40이수함
+## - Lecture3-python_and_networkx 19:46
+## - Lecture3-python_crash-part1 31:17
+## - Lecture3-python_crash-part2 21:04
+## - Lecture3-python_crash-part3 25:12
+## - Lecture3-networkX_basics 24:11
+## - Lecture3-practice-small_world_networks 38:02
+## - Lecture3-HW5_intro 02:40
 
 # 3) 강의정리<br>
 
@@ -124,12 +124,12 @@ tags:
 - 강의콘텐츠Lecture4-scale_free_networks강의콘텐츠7:02이수함
 
 # 2) 강의내용<br>
-## - 동영상Lecture4-scale_free_networks_part1동영상 04:33이수함
-## - 동영상Lecture4-scale_free_networks_part2동영상 12:58이수함
-## - 동영상Lecture4-scale_free_networks_part3동영상 26:13이수함
-## - 동영상Lecture4-scale_free_networks_part4동영상 10:35이수함
-## - 동영상Lecture4-scale_free_networks_part5동영상 1
-## - 동영상Lecture4-practice-scale_free_networks동영상 22:18이수함
+## - Lecture4-scale_free_networks_part1 04:33
+## - Lecture4-scale_free_networks_part2 12:58
+## - Lecture4-scale_free_networks_part3 26:13
+## - Lecture4-scale_free_networks_part4 10:35
+## - Lecture4-scale_free_networks_part5 17:02
+## - Lecture4-practice-scale_free_networks 22:18
 
 # 3) 강의정리<br>
 
@@ -152,14 +152,14 @@ tags:
 - 강의콘텐츠Lecture6-correlated_networks강의콘텐츠
 
 # 2) 강의내용<br>
-## - 동영상Lecture5-centralities_part1동영상 17:48이수함
-## - 동영상Lecture5-centralities_part2동영상 25:16이수함
-## - 동영상Lecture5-centralities_part3동영상 16:58이수함
-## - 동영상Lecture6-correlated_networks_part1동영상 18:51이수함
-## - 동영상Lecture6-correlated_networks_part2동영상 28:46이수함
-## - 동영상Lecture5-practice-centralities동영상 18:47이수함
-## - 동영상Lecture6-practice-correlated_networks동영상 06:33이수함
-## - 동영상HW6_intro동영상 03:51이수함
+## - Lecture5-centralities_part1 17:48
+## - Lecture5-centralities_part2 25:16
+## - Lecture5-centralities_part3 16:58
+## - Lecture6-correlated_networks_part1 18:51
+## - Lecture6-correlated_networks_part2 28:46
+## - Lecture5-practice-centralities 18:47
+## - Lecture6-practice-correlated_networks 06:33
+## - HW6_intro 03:51
 
 # 3) 강의정리<br>
 
@@ -186,12 +186,12 @@ tags:
 - 강의콘텐츠Lecture7-special_topic1강의콘텐츠
 
 # 2) 강의내용<br>
-## - 동영상Lecture7-special_topic1_part1동영상 37:20이수함
-## - 동영상Lecture7-special_topic1_part2동영상 10:38이수함
-## - 동영상Lecture7-special_topic1_part3동영상 08:30이수함
-## - 동영상Lecture7-special_topic1_part4동영상 22:01이수함
-## - 동영상Lecture7-special_topic1_part5동영상 16:52이수함
-## - 동영상[Zoom] special topic1_part6동영상 01:06:32이수함
+## - Lecture7-special_topic1_part1 37:20
+## - Lecture7-special_topic1_part2 10:38
+## - Lecture7-special_topic1_part3 08:30
+## - Lecture7-special_topic1_part4 22:01
+## - Lecture7-special_topic1_part5 16:52
+## - [Zoom] special topic1_part6 01:06:32
 
 # 3) 강의정리<br>
 
@@ -205,11 +205,11 @@ tags:
 - 강의콘텐츠Lecture9-community강의콘텐츠
 
 # 2) 강의내용<br>
-## - 동영상Lecture8-bipartite_part1동영상 24:52이수함
-## - 동영상Lecture8-bipartite_part2동영상 19:41이수함
-## - 동영상Lecture8-bipartite-practice동영상 15:47이수함
-## - 동영상Lecture9-community_part1동영상 18:23이수함
-## - 동영상Lecture9-community_part2동영상 22:56이수함
+## - Lecture8-bipartite_part1 24:52
+## - Lecture8-bipartite_part2 19:41
+## - Lecture8-bipartite-practice 15:47
+## - Lecture9-community_part1 18:23
+## - Lecture9-community_part2 22:56
 
 
 # 3) 강의정리<br>
@@ -229,12 +229,12 @@ tags:
 - 파일Additional_readings.zip파일
 
 # 2) 강의내용<br>
-## - 동영상Lecture10-spreading_phenomena1-part1동영상 13:00이수함
-## - 동영상Lecture10-spreading_phenomena1-part2동영상 28:36이수함
-## - 동영상Lecture10-spreading_phenomena1-part3동영상 22:59이수함
-## - 동영상Lecture10-spreading_phenomena1-part4동영상 10:57이수함
-## - 동영상Lecture10-spreading_phenomena1-part5동영상 16:02이수함
-## - 동영상Lecture10-spreading_phenomena1-part6동영상 19:29이수함
+## - Lecture10-spreading_phenomena1-part1 13:00
+## - Lecture10-spreading_phenomena1-part2 28:36
+## - Lecture10-spreading_phenomena1-part3 22:59
+## - Lecture10-spreading_phenomena1-part4 10:57
+## - Lecture10-spreading_phenomena1-part5 16:02
+## - Lecture10-spreading_phenomena1-part6 19:29
 
 # 3) 강의정리<br>
 
