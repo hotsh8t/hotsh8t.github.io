@@ -27,6 +27,8 @@ git commit -m"name"
 git push origin master
 '''
 
+# 아나콘다에 Python, TensorFlow, & Keras 설치하기
+[아나콘다에 Python, TensorFlow, & Keras 설치하기](https://deepcell.co.kr/92)
 
 
 
