@@ -11,81 +11,182 @@ tag :
   - ETC
 ---
 
-# BASICS OF Business Data Communication(2)  
+# BASICS OF Business Data Communication(2)<br>  
  
 
-# [1]. Data Flows with Different Line Configurations  
+# [1]. Data Flows with Different Line Configurations<br>  
 
-## 1. Data Flows  
-+ **Simplex** : One way only
-    + 
-+ Half Duplex : One way, then the other
-    - data may travel in both directions, but only in one direction at a time​data may travel in both directions, but only in one direction at a time​data may travel in both directions, but only in one direction at a time​data may travel in both directions, but only in one direction at a time​data may travel in both directions, but only in one direction at a time​
-    - provides non-simultaneous two-way communication​
-    - computers use control signals to negotiate when to send and when to receive  
-    - the time it takes to switch between sending and receiving is called turnaround time
-+ Full Duplex : both ways at the same time
+## 1. Data Flows<br>
+1). **Simplex** : One way only
+    -
+2). Half Duplex : One way, then the other
+- data may travel in both directions, but only in one direction at a time​data may travel in both directions, but only in one direction at a time​data may travel in both directions, but only in one direction at a time​data may travel in both directions, but only in one direction at a time​data may travel in both directions, but only in one direction at a time​
+- provides non-simultaneous two-way communication​
+- computers use control signals to negotiate when to send and when to receive  
+- the time it takes to switch between sending and receiving is called turnaround time
+3). Full Duplex : both ways at the same time
 
-## 2. Transmission Mode  
-+ Parallel / Series 모드가 있음
-    - 실 사용 예 :
+## 2. Transmission Mode <br>
+1). Parallel / Series 모드 
+- 실 사용 예 :
     ![Screenshot from 2020-05-13 19-30-57](https://user-images.githubusercontent.com/64456846/81802135-80db4f00-9550-11ea-9486-49bfd1aa3784.png)
-    - parallel :
-    - Series :
-        * Asynchronous :start/stop bits per unit  
-            - Serial communication
-        * Synchronous : Block of units
+- parallel :  
 
-    - Data Link Layer – Managing Data Flow
-        OSI LAYER
-## 3. Flow Control
+- 구분
 
-# [2]. Communication Impairments  ​  
+    |  | Asynchronous Transmission | Synchronous Transmission|
+    |---|---|---|
+    | |Serial communication|Parallel communication|
+    | |Data transmitted 1 character at a time|Large blocks of bits transmitted without start/stop codes|
+    | |Character format is 1 start & 1+ stop bit, plus data of 5-8 bits |Timing needed only within each character|
+    | |Synchronized by clock signal or clocking data| Data framed by preamble/postamble bit patterns |
+    | |Resynchronization each start bit|More efficient than asynchronous|
+    | |Uses simple, cheap technology|Used at higher speeds than asynchronous|
+    | |Wastes 20-30% of bandwidth| Overhead typically below 5%|
 
+  
 
-[Transmission Impairments 1](https://youtu.be/rStveoU1xQo)
-[Transmission Impairments 2](https://youtu.be/bnl1aKrM62o)
+2). Data Link Layer – Managing Data Flow
+- OSI 모델
+    | ISO’s Open Systems Interconnection (OSI)|
+    |---|
+    | 1. Application Layer |
+    | 2. Presentation Layer |
+    | 3. Session Layer |
+    | 4. Transport Layer |
+    | 5. Network Layer |
+    | 6. **Data Link Layer – Managing Data Flow** |
+    | 7. **Physical Layer – Managing Medium** |
 
+- Physical / Data link layer
+    |Physical Layer|Data link layer|
+    |---|---|
+    |Refers to transmission of unstructured bits over physical medium|Provides for reliable transfer of information across physical link|
+    |Deals with characteristics of and access to the physical medium|Include transmission of blocks of data (“frames”)', 'Synchronization', 'Error control', 'Flow control'|
 
-# [3]. Security of Communication Human Threats to Communications  
-- CONFIDENTIALITY, INTEGRITY, NON-REPUDIATION 이 중요하다.   
+- DTE/DTC
+
+## 3. Flow Control<br>
+1). Flow control
+
+2). Stop and Wait Flow control
+
+3). Sliding window Flow control
+
+# [2]. Communication Impairments<br>  ​  
+## 1. Threats to Communication Reliability<br>
+1). 참고자료
+
+- 참고자료(수업).1: [Transmission Impairments 1 (6:57)](https://youtu.be/rStveoU1xQo)
+- 참고자료(수업).2: [Transmission Impairments 2 (8:00)](https://youtu.be/bnl1aKrM62o)
+
+2) Threat
+    |Reliability Threats|Security Threats|
+    |:---:|:---:|
+    |**Nature Caused Problems**|**Human Caused Problems**|
+    |Attenuations||
+    |Delay distortion||
+    |Noise||
+
+3) Attenuation
+
+4) Delay distortion
+
+5) Noise
+ 
+
+## 2. How to detect impairment (errors)<br>
+
+All transmission media have potential for introduction of
+errors
+1). Error control process has two components
+- Error detection
+- Error correction
+
+2). Three methods:
+- Parity check
+- Checksum
+- Cyclic Redundancy Check (CRC) 
+
+## 3. How to fix errors<br>
+1). Two types of errors
+- Lost frame
+- Damaged frame
+
+2). Fix: based on Automatic Repeat Request
+
+- Stop-N-Wait ARQ
+- Go-back-N ARQ
+
+3). Automatic Repeat reQuest (ARQ) 
+- Error detection
+- Positive acknowledgment
+- Retransmission after time-out
+- Negative acknowledgment and retransmission
+
+# [3]. Security of Communication Human Threats to Communications<br>  
+- **CONFIDENTIALITY**, **INTEGRITY**, **NON-REPUDIATION** 이 중요
+    |SECURE?|
+    |:---:|
+    |**- CONFIDENTIALITY**|
+    |**- INTEGRITY**|
+    |**- NON-REPUDIATION**|   
 ## 1. Security Control
 - Threats
 
+    - Eavesdropping
+    - Password ``sniffing''
+    - Data modification
+    - Spoofing (masquerading)
+    - Repudiation
+    - DDOS Attack
 - Security Measures
+    - Password
+    - Encryption
+    - Digital Signature
+    - Firewall
+    - Blockchain
 
 ## 2. Cryptography
 
+1). Cyptogorapy
+- The field of study related to encoded information (comes from Greek word for "secret writing")
+- Encryption
+    - The process of converting plaintext into ciphertext
+- Decryption
+    - The process of converting ciphertext into plaintext
+
+2). Ciphers
 - Caesar Ciphers
 
 - Transposition Ciphers
 
-- Cyrptography
-    - Cipher
-    - Key
+3). Cyrptography
+- Cipher
+- Key
 
-- Cryptanalysis
+4). Cryptanalysis
 
-- Encryption & Decryption
+5). Encryption & Decryption  
     - Encryption on computers 
     - Asymmetric Key Cryptography
     - Symetric/Private Key Encryption
 
 
-- RSA Cryptography
-    - [RSA Cryptography](https://youtu.be/4zahvcJ9glg)
-    - ENcr
+6). RSA Cryptography  
+- 참고자료(수업) : [RSA Cryptography](https://youtu.be/4zahvcJ9glg)
+- ENcr
+
+7). Public/Private keys
+- Applications of Pulbic and Private key
+
+8). Standards 
 
 
 ## 3. Other Applications of Public/Private Keys  
     - Digital Certificates  
     - Digital Signature  
     - How PGP Works - Encryption  
-
-
-
-
-
 
 
 # [4]. Communication Performance Improvement  
@@ -111,7 +212,7 @@ tag :
 > `compression`과  `multiplexing`이 가장 중요하기때문에 이 두개에 대해서만 언급, 또한 
 
 ## 3. Compression 
-[Data Compression](https://youtu.be/OtDxDvCpPL4)
+- 참고자료(수업) : [Data Compression](https://youtu.be/OtDxDvCpPL4)
 
 
 - Reduces the size of data files to move more information with fewer bits
@@ -218,7 +319,9 @@ rse operation.
     - 참고자료(수업) : [CDMA](https://youtu.be/oYRMYSIVj1o)
 
 - 배경    
-    > 내용  기존의 통신 방식인 주파수 분할 다중 접속(FDMA) 및 시간 분할 다중 접속(TDMA)는 다중 접속을 감당하는데 무리가 있다는 단점을 해결. 이론적으로는 동일한 무선 인터페이스를 이용하고 주파수 분배 방식만 다를 경우, FDMA, TDMA, CDMA 모두 동일한 전송 대역폭을 갖는다. 그러나 FDMA 방식이나 TDMA 방식의 경우 무선 통신중 발생할 수 있는 혼선을 방지하기 위해 물리적인 혼선 방지 영역[1]을 배치해야 하는데, 무선 통신 하면 카폰으로 이해하던, 과거 접속자 수가 얼마 없던 시절에는 분할할 일이 적기에 큰 불편 없이 썼지만 무선 통신 수요가 점증하는 상황에서 기존의 FDMA와 TDMA 방식으로는 무선 통신 수요가 몰리는 지역에선 통신에 사용되는 주파수보다 혼선방지를 위해 비워두는 주파수가 더 많은 상황에 직면, 혹은 원활한 통신을 위한 대역폭 요구량이 폭증하게 되리라는 것이 예견되었다.
+    > 내용  기존의 통신 방식인 주파수 분할 다중 접속(FDMA) 및 시간 분할 다중 접속(TDMA)는 다중 접속을 감당하는데 무리가 있다는 단점을 해결. 이론적으로는 동일한 무선 인터페이스를 이용하고 주파수 분배 방식만 다를 경우, FDMA, TDMA, CDMA 모두 동일한 전송 대역폭을 갖는다. 그러나 FDMA 방식이나 TDMA 방식의 경우 무선 통신중 발생할 수 있는 혼선을 방지하기 위해 물리적인 혼선 방지 영역[1]을 배치해야 하는데, 무선 통신 하면 카폰으로 이해하던, 과거 접속자 수가 얼마 없던 시절에는 분할할 일이 적기에 큰 불편 없이 썼지만 무선 통신 수요가 점증하는 상황에서 기존의 FDMA와 TDMA 방식으로는 무선 통신 수요가 몰리는 지역에선 통신에 사용되는 주파수보다 To improve the efficiency of transferring information over a
+shared communication line, messages are divided into fixed-
+sized, numbered packets요구량이 폭증하게 되리라는 것이 예견되었다.
 
 - 장점
          

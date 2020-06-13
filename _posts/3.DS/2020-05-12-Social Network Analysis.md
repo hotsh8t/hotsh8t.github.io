@@ -11,6 +11,24 @@ tags:
   - SNA
 ---
 
+Module I: Basic concepts and methods of Social Network Analysis<br>
+- First step to analysis: Visualize your network
+- Six degrees of separation: small world networks
+- Let there be hubs: Scale free networks
+- Who is the core? Centrality measures in networks
+- Birds of feather: homophily, assortativity and correlated networks
+- Special Topic I: Innovation and Success 
+
+Module II: Advanced topics of Social Network Analysis<br>
+
+Module III: Practical applications<br>
+
+-----
+-----
+-----
+
+
+
 1주차 (3/18) Introduction to SNA  
  
 - 동영상Lecture0-Course_introduction동영상 17:34이수함

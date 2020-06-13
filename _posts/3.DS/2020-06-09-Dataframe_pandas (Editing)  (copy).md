@@ -18,7 +18,7 @@ tags:
 ## 열 단위 데이터 추출하기 df['column']  <br>
 [열단위 데이터 추출하기 ](https://devpouch.tistory.com/46)
 
-## 행 열 가기준으로 데이터 가져오기  <br?
+## 행 열 가기준으로 데이터 가져오기  <br>
 [행 열 기준으로 데이터가져오기](https://rfriend.tistory.com/254) 
 
 [df 컬럼명 변경](https://m.blog.naver.com/PostView.nhn?blogId=youji4ever&logNo=221643578115&proxyReferer=https:%2F%2Fwww.google.com%2F)
