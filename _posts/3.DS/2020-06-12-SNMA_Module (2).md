@@ -91,6 +91,40 @@ tags:
 
 ## Lecture9-community_part2 22:56<br>
 
+Community Detection
+
+- The Girvan-Newman algorithm -> link betweenness
+
+- Modularity 어디까지 잘라야 할지 언제 멈춰야 할지?
+	- Random한 네트워크는 모듈이 존재하지 않을거라는게 가정
+	- Modularity 정량적인 값 제안
+	- 모듈러리티는 랜덤하게 연결되어 있는 가능성에 비해 많으냐 적으냐로 판단
+	- c1 c2 c3 별로 각각 커뮤니티 별로 Mc(모듈러리티) 계산 각각의 Mc값은 해당 커뮤니티 안에 있는 노드가 얼마나 연결되어 있느냐  Adjacent Aij의 합으로 되어 있는 일종의 density 해당 커뮤니티 안의 링크의 밀도를 계산하게 됨 Pij가 랜덤하게 연결된 차이 차이가 클수록 해당커뮤니티의 빈도 연결에 비해 랜덤한네트워크에 비해 낮으냐 높으냐 판단 가능 
+	- 해당 커뮤니티의 랜덤하게 연결하게 연결됢수 있는 가능성에 비해 훨씬 높은빈도로 연결된다면 해당네트워크는 커뮤니티로 잘 찾아낸거임
+	- 값이 Pij 랜덤하게 연결된 가능성과 비슷하다면 커뮤니티구조는 일종의 네트워크 구조상에서 잘 찾아낸거라 볼 수 없다. 랜덤한 커뮤니티랑 다를바가 없다 
+	- 모듈러리티 값을 각각 구한거를 평균 총합내면 전체내트워크에서 모듈러리티 값 구할 수 있음 
+	- 과연 랜덤네트워크와 얼마나 차이가 나는지? 모듈러리티 값이 높을수록 잘 찾아낸거라 볼 수 있다. 
+	- 서브옵티멀 파티션 / 옵티말 파티션 0.22 / 0.41?
+	- 싱글커뮤니티 / 네거티브모듈러리티 모듈러리티 값이 0 또는 마이너스
+- 어떤 시점에서 알고리즘을 멈춰야 하는지?모듈러리티 값을 계속 보면서 
+- 링크를 잘라나가면서 확인 -> 몇개의 커뮤니티를 찾아내야 하는지 확인 예시에선 n=3 인경우
+
+- Advanced
+	- Overapping communities
+	- 여기저기 속할 수 있는 노드 애매한 경우의 노드
+- Clique percolation algorithm 어디에 속할것인지? 오버랩하지않고
+	- c finder 링크는 오버랩이 없고 노드가 많다 소프트웨어가 있어서 구현 가능
+- 오버랩은 노드가 아니라 링크도 오버랩이 가능할수도 있다 하지만 가능성은 적다
+패밀리에 관한 링크인지 용도가 분명함 
+링크의 커뮤니티구조를 찾으면 오버래핑 을 해결할수 있지 않을까?
+
+링크 커뮤니티 알고리즘
+- 링크의 유사도 판단 similarity 해당하는 링크가 얼마나 많은 노드를 공유하고 있는가
+- 유사도가 높은 각각의 노드를 잡아서 유사도가 높은 노드를 먼저 붙여나가는 방식
+ 
+
+
+
 ## Lecture9-community-practice 10:07<br>
 
 ## 3) 강의정리<br>
@@ -128,6 +162,18 @@ tags:
 
 ## 2) 강의내용<br>
 ## - week10-spreading_phenomena2 02:59:54<br>
+## Part1 - Building Robustness
+## Part2 - Mitigation of malicious attacks
+## Part3 - Onion-like topology of robust networks
+## Part4 - Halting Cascading Failures
+## Part5 - Immunization
+## Part6 - Random Immunization
+## Part7 - Selective IMmunization
+## Part8 - Friendship paradox revisited
+## Part9 - Epidemic Prediction
+## Part10 - Finding Influential Spreaders
+## Part11 - Finding Influential and Susceptible members
+
 
 ## 3) 강의정리<br>
 
