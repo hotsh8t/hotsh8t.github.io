@@ -15,39 +15,72 @@ tag :
  
 
 # [1]. Data Flows with Different Line Configurations<br>  
-
+ 
 ## 1. Data Flows<br>
 1). **Simplex** : One way only
-    -
-2). Half Duplex : One way, then the other
+
+2). **Half Duplex** : One way, then the other
 - data may travel in both directions, but only in one direction at a time​data may travel in both directions, but only in one direction at a time​data may travel in both directions, but only in one direction at a time​data may travel in both directions, but only in one direction at a time​data may travel in both directions, but only in one direction at a time​
 - provides non-simultaneous two-way communication​
 - computers use control signals to negotiate when to send and when to receive  
 - the time it takes to switch between sending and receiving is called turnaround time
-3). Full Duplex : both ways at the same time
+
+3). **Full Duplex** : both ways at the same time
 
 ## 2. Transmission Mode <br>
-1). Parallel / Series 모드 
-- 실 사용 예 :
-    ![Screenshot from 2020-05-13 19-30-57](https://user-images.githubusercontent.com/64456846/81802135-80db4f00-9550-11ea-9486-49bfd1aa3784.png)
-- parallel :  
+Unity of Info: A Character (Symbol), A Sample (Audio)
+and A Pixel (Graphics)
+How To Preserve Unity of Information during transmission ?
 
-- 구분
+1). Parallel / Serial 모드 
+- **Parallel(병렬)** : n bits (multiple of 8) in 1 cycle
+    - Generic Communications Interface : Parallel(병렬)
+    ![Parallel](https://user-images.githubusercontent.com/64456846/84845741-42254100-b088-11ea-9beb-809f950bb3c5.png)
+- **serial(직렬)** : 1 bit in 1 cycle
 
-    |  | Asynchronous Transmission | Synchronous Transmission|
-    |---|---|---|
-    | |Serial communication|Parallel communication|
-    | |Data transmitted 1 character at a time|Large blocks of bits transmitted without start/stop codes|
-    | |Character format is 1 start & 1+ stop bit, plus data of 5-8 bits |Timing needed only within each character|
-    | |Synchronized by clock signal or clocking data| Data framed by preamble/postamble bit patterns |
-    | |Resynchronization each start bit|More efficient than asynchronous|
-    | |Uses simple, cheap technology|Used at higher speeds than asynchronous|
-    | |Wastes 20-30% of bandwidth| Overhead typically below 5%|
+        
+    - **Asynchronous** : start/stop bits per unit
+        - Synchronization occurs on the data link layer
+    - **Synchronous** : block of units
+        - Low-speed terminals and PCs commonly use asynchronous transmission
+            - inexpensive
+        - “burst” tendency of communication reduces impact of inefficiency Large systems and networks commonly use synchronous transmission
+            - overhead too expensive; efficiency necessary
+            - error-checking more important
 
-  
+    - 상세
+
+        |  | Asynchronous Transmission| Synchronous Transmission|
+        |---|---|---|
+        | |Serial communication|Parallel communication?|
+        | |타이밍에러 누적시 문제발생 , 데이터링크 계층에서 동기화 됨, UART :RS232C, RS442, RS485 등 | 별도의 clock line 필요I2C 등, 전송효율, 속도높음|
+        | |Data transmitted 1 character at a time, Character format is 1 start & 1+ stop bit, plus data of 5-8 bits|Large blocks of bits transmitted without start/stop codes|
+        | |Character may include parity bit| Data framed by preamble/postamble bit patterns |
+        | |Timing needed only within each character | Synchronized by clock signal or clocking data |
+        | |Resynchronization each start bit|More efficient than asynchronous|
+        | |Uses simple, cheap technology|Used at higher speeds than asynchronous|
+        | |Wastes 20-30% of bandwidth| Overhead typically below 5%|
+
+    - 정리 <br>
+        |구분|비동기식|동기식|
+        |---|---|---|
+        |통신속도|저속|고속|
+        |회로복잡도|단순|복잡|
+        |구축비용|저가|고가|
+        |동기제어방식|START/STOP BIT|클럭동기|
+        |전송단위|문자단위|블럭단위전송|
+        |적용예|RS-232C|전화교환망, ATM, 데이터통신망|
+        ||||
+
+
+
+
+    - Generic Communications Interface : serial(직렬)
+        ![Seriseriales](https://user-images.githubusercontent.com/64456846/84845816-6da82b80-b088-11ea-8b2b-a29fb4be7a8f.png)
+    
 
 2). Data Link Layer – Managing Data Flow
-- OSI 모델
+- OSI 모델<br>
     | ISO’s Open Systems Interconnection (OSI)|
     |---|
     | 1. Application Layer |
@@ -58,82 +91,142 @@ tag :
     | 6. **Data Link Layer – Managing Data Flow** |
     | 7. **Physical Layer – Managing Medium** |
 
-- Physical / Data link layer
+- Physical / Data link layer<br>
     |Physical Layer|Data link layer|
     |---|---|
-    |Refers to transmission of unstructured bits over physical medium|Provides for reliable transfer of information across physical link|
-    |Deals with characteristics of and access to the physical medium|Include transmission of blocks of data (“frames”)', 'Synchronization', 'Error control', 'Flow control'|
+    |Refers to transmission of unstructured bits over physical medium. Deals with characteristics of and access to the physical medium|Provides for reliable transfer of information across physical link|
+    ||- 
+ 
 
-- DTE/DTC
+- Data link layer includes : 
+    - **transmission of blocks of data (“frames”)** 
+    - **synchronization** 
+    - **error control**
+    - **flow control**
+        
+        
+- DTE/DTC :
+    - **DTE** : **데이터 단말장치(Data Terminal Equipment)**
+    - **DCE** : **데이터 통신장치(Data Communications Equipment)** 
+    - 보통 PC는 DTE 장치이고 그 반면에 대부분의 다른 디바이스는 보통 DCE 장치임.  DCE와 DTE 장치 RS-232 스탠더드에서는 DTE 장치는 25 핀의 male 커넥터를 사용하고, DCE 장치는 25 핀의 female 커넥터를 사용함.  DTE장치를 DCE장치에 접속하는 경우에는 스트레이트 케이블을 이용 
 
+- Standard
+    - Communication card, UART(Universal Asynchronous Reciever Transmitter) RS-232-C, DB-25, DB-9, Moodem, RJ-11 ....
+
+  
 ## 3. Flow Control<br>
-1). Flow control
+1). Flow control Timing needed only within each character<br>
+- Necessary when data is being sent faster than it can be processed by receiver
+- Computer to printer is typical setting
+- Can also be from computer to computer, when a processing program is limited in capacity
 
-2). Stop and Wait Flow control
+1). Stop-and-Wait Flow Control<br>
+- Simplest form
+- Source may not send new frame until receiver acknowledges the frame already sent
+- Very inefficient, especially when a single message is broken into separate frames
 
-3). Sliding window Flow control
+2). **Sliding-Window Flow Control**<br>
+- Sliding Window<br>
+    ![slidingwindow](https://user-images.githubusercontent.com/64456846/84866146-49624400-b0b4-11ea-9bda-4bc6f4fc5543.png)
+- Allows multiple frames to be in transit
+- Receiver sends acknowledgement with sequence number of anticipated frame
+- Sender maintains list of sequence numbers it can send, receiver maintains list of sequence numbers it can receive 
+- ACK (acknowledgement) supplemented with RNR(receiver not ready)
+
 
 # [2]. Communication Impairments<br>  ​  
 ## 1. Threats to Communication Reliability<br>
-1). 참고자료
+1). Threat<br>
 
-- 참고자료(수업).1: [Transmission Impairments 1 (6:57)](https://youtu.be/rStveoU1xQo)
-- 참고자료(수업).2: [Transmission Impairments 2 (8:00)](https://youtu.be/bnl1aKrM62o)
-
-2) Threat
-    |Reliability Threats|Security Threats|
+- 3 Types of Threats
+    |Reliability Threats<br>(Nature Caused Problems) |Security Threats<br>(Human Caused Problems)|
     |:---:|:---:|
-    |**Nature Caused Problems**|**Human Caused Problems**|
     |Attenuations||
     |Delay distortion||
     |Noise||
+- 참고자료(수업).1: [Transmission Impairments 1 (6:57)](https://youtu.be/rStveoU1xQo)
+- 참고자료(수업).2: [Transmission Impairments 2 (8:00)](https://youtu.be/bnl1aKrM62o)
 
-3) Attenuation
+2). Attenuation<br>
+- Measurement of attenuation, Decibel (dB)
+ ![Decibel](https://user-images.githubusercontent.com/64456846/84867141-ad393c80-b0b5-11ea-84a1-35bfd548ea4f.png)
+- Repeater for Digital signal
+- Amplifier for Analog signals
+- Amplifier increases the noise level as well
 
-4) Delay distortion
+3). Delay distortion<br>
 
-5) Noise
- 
+- Various frequency components of a signal arrives at the Rx at different time on guided media
+- Fix: Synchronization Techniques
+- Propagation Delay= Distance/Signal Speed
+
+4). Noise<br>
+- Noise Effects (SNR, Signal to Noise Ratio)
+    - **The Shannon–Hartley theorem**
+        - **Max. Capacity= Bandwidth x Log 2 (1+ S/N)**
+        - As data rate increases, error rate increases
+- Fix:
+    - Line conditioning
+    - Error Detection and Correction
+
+5). Two components of **Error control process**
+- All transmission media have potential for introduction of errors
+    - Error detection
+    - Error correction
 
 ## 2. How to detect impairment (errors)<br>
+- Three Error detection methods:<br>
 
-All transmission media have potential for introduction of
-errors
-1). Error control process has two components
-- Error detection
-- Error correction
+1). **Parity check**<br>
+    - Even and Odd parity methods
+    - add 0 or 1 parity bit to each (7-bit ASCII) character in order to make the sum of the 8 bits even or odd.<br>
+    - ex), G(1110001) → (11100011)<br>
+    - Not fool proof, why?
 
-2). Three methods:
-- Parity check
-- Checksum
-- Cyclic Redundancy Check (CRC) 
+2). **Checksum**(and LRC Error Detection)<br>
+    - Sum ASCII decimal values of all characters in a block<br>
+    - Divide this number by 255<br>
+    - Put the remainder (checksum) into control characters<br>
+    - Only synchronous transmission<br>
+    - More than 99.9999 percent error detection<br>
+    - for example, 128 A's (1000001) in the block<br>
+
+3). **CRC : Cyclic Redundancy Check**<br> 
 
 ## 3. How to fix errors<br>
-1). Two types of errors
-- Lost frame
-- Damaged frame
+- Two types of errors : **'Lost frame'**, **'Damaged frame'**<br>
 
-2). Fix: based on Automatic Repeat Request
+1). Fix: based on Automatic Repeat Request<br>
+- **1.1). Stop-N-Wait ARQ**<br>
+    - One frame received and handled at a time
+    - If frame is damaged, receiver discards it and sends no acknowledgment
+    - Sender uses timer to determine whether or not to retransmit
+    - Sender must keep a copy of transmitted frame until acknowledgment is received
+    - If acknowledgment is damaged, sender will know it because of numbering
+- **1.2). Go-back-N ARQ (Sliding Window)**<br>
+    - Uses sliding-window flow control
+    - When receiver detects error, it sends negative acknowledgment (REJ)
+    - Sender must begin transmitting again from rejected frame
+    - Transmitter must keep a copy of all transmitted frames
 
-- Stop-N-Wait ARQ
-- Go-back-N ARQ
-
-3). Automatic Repeat reQuest (ARQ) 
-- Error detection
-- Positive acknowledgment
-- Retransmission after time-out
-- Negative acknowledgment and retransmission
+2). Automatic Repeat reQuest (ARQ) ???<br>
+- 2.1). Error detection
+- 2.2). Positive acknowledgment
+- 2.3). Retransmission after time-out
+- 2.4). Negative acknowledgment and retransmission
 
 # [3]. Security of Communication Human Threats to Communications<br>  
 - **CONFIDENTIALITY**, **INTEGRITY**, **NON-REPUDIATION** 이 중요
-    |SECURE?|
-    |:---:|
-    |**- CONFIDENTIALITY**|
-    |**- INTEGRITY**|
-    |**- NON-REPUDIATION**|   
-## 1. Security Control
+    |SECURE ?||
+    |:---:|:---|
+    |**- CONFIDENTIALITY**||
+    |**- INTEGRITY**|: 무결성 |
+    |**- NON-REPUDIATION**||   
+## 1. Security Control<br>
+- Passive/Active Thtreats
+    - Passive Threats: monitoring and/or recording of data while transmitted.
+    - Active Threats: Unauthor
 - Threats
-
     - Eavesdropping
     - Password ``sniffing''
     - Data modification

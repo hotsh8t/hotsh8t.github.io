@@ -44,7 +44,7 @@ tag :
     - Telephone (3000Hz), Hi-Fi Sound (15,000Hz; approximate range of human ear), Compact Disc (20,000Hz for each of two channels)​
 - Digital Communication  
     - Digitization: Information → binary representation
-    - Digital Convergence : Converting all info into binaries
+    - Digital Convergence : Conver|ting all info into binaries
       Analog(Old info.) + Digitally Capturing -> DIgital information -> Transmission or Storage
 
 ## 3. Why Data(Digital) Communication?  
@@ -84,24 +84,36 @@ The same technologies for transmission **regardless the kinds of Information**
 - Byte (B), Kilobyte (KB), Megabyte (MB), Gigabyte (GB), Terabyte (TB), Petabyte (PB), Exabyte (EB), Zettabyte (ZB), Yottabyte (YB)
 
 ## 3. Audio Digitization
-- From Graph(Audio waves)to Coordinates(t1,h1)(t,h2)....
-- Converting Samples to Bits
-    - Quantizing
-        - Similar concept to pixelization in graphic digitization
-    - Breaks wave into pieces, assigns a value in a particular range​
-    - 8-bit range allows for 256 possible sample levels​
-    - More bits means greater detail, fewer bits means less detail​
-- Digital Encoding of Voice
-    - Primarily used in retransmission devices
-        - Uses pulse-code modulation (PCM)
-    - The sampling theorem:  S=2F
-        -If a signal is sampled at regular intervals of time and at a rate higher than twice the significant signal frequency, the samples contain all the information of the original signal.
-    - 8000 samples/sec sufficient for 4000hz
-- Sampling Theorem
+1). From Graph(Audio waves)to Coordinates(t1,h1)(t,h2)....<br>
+2). Converting Samples to Bits <br>
+- Quantizing
+    - Similar concept to pixelization in graphic digitization
+- Breaks wave into pieces, assigns a value in a particular range​
+- 8-bit range allows for 256 possible sample levels​
+- More bits means greater detail, fewer bits means less detail​
+3). Digital Encoding of Voice <br>
+- Primarily used in retransmission devices
+    - Uses pulse-code modulation (PCM)
+- The sampling theorem:  S=2F
+    -If a signal is sampled at regular intervals of time and at a rate higher than twice the significant signal frequency, the samples contain all the information of the original signal.
+- 8000 samples/sec sufficient for 4000hz
+4). Sampling Theorem <br>
+- Voice Digitization: Sampling Digitizer (Audio Codec= Coder/Decoder)
+- Quality of sampling depends on
+    - no. of samples (intervals) (S)
+    - no. of levels in heights (H)
+- Sampling theorem:
+for a signal with the highest frequency F, then S (samples per second) = 2 F
+- Data rate= Pulse-code modulation (PCM) for voice digitization: e.g., voice sampling (4000 Hz) with 256 levels? 
+-  DS0 (Digital Signal 0: 8000 sample/second (baud) x 8 bits/sample = 64 Kbps, to carry a single digitized voice call.
+    - Multiplexing: DS1 = 24xDS0, DS3=28xDS1
+    - Copper Wires, T1 Line (AT&T) = 24 x DS-0 + 18 bits for framing = 1.544Mbps, T3= 45Mb
+    - Audio CD, ``RealAudio'', Internet telephone applications such as Skype
 
-- Codec
+ 
+5). Codec
 
-- Digital Voice Communication
+6). Digital Voice Communication
 ## 4. Video Digitization
 - Digitazation of Image(Graphics)
 - Bitmap
