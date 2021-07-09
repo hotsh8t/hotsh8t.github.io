@@ -1,5 +1,5 @@
 ---
-title: [Cpp]"First Blog Post in 2021"
+title: "[Cpp]"First Blog Post in 2021"
 categories:
   - MEMO
 tags:
