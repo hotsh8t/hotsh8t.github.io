@@ -1,7 +1,11 @@
 # main links
 main:
    - title: "ROS"
-     url: /categories/ROS
+     children:
+      - title: "자율주행"
+        url: /categories/ROS
+        # url: /docs/quick-start-guide/
+    #  url: /categories/ROS
    - title: "ML"
      url: /categories/ML
    - title: "DS"

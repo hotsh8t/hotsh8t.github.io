@@ -1,7 +1,9 @@
 ---
 title: "Python : Grammer"
 date: 2019-12-31
-author_profile: false
+author_profile: true 
+sidebar:
+  nav: "main"
 toc: true
 toc_sticky: true
 categories:

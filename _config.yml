@@ -14,13 +14,13 @@
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
-# Site Settings트
+# Site Settings
 locale                   : "en-US"
-title                    : "스테이크오버플로우"
-title_separator          : "="
+title                    : "개발기록"
+title_separator          : "Dev history"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "꼼꼼맨>_< "
-description              : "꼼꼼맨이 후루꾸 탈피를 위해 작성하는 amazing website."
+name                     : "hotsh8t "
+description              : "hotsh8t 기술노트"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -93,10 +93,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "핫샷노트 :"
+  name             : "개발노트 :"
   avatar           : "/assets/images/profile/profile.jpg" # path of avatar image
-  bio              : "꼼꼼하게 복습하기 위한 기술블로그 <br> 후루꾸 탈피를 위해!!!"
-  location         : "Somewhere from Korea"
+  bio              : "복습을 위한 기술블로그"
+  location         : "Seoul, Korea"
   email            :  
   links:
     - label: "Email"
@@ -275,6 +275,8 @@ defaults:
     values:
       layout: single
       author_profile: true
+      sidebar:
+          nav: "main"
       read_time: true
       comments: # true
       share: true

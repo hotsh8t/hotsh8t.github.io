@@ -1,5 +1,5 @@
 ---
-title: "[Cpp]"First Blog Post in 2021"
+title: "[CPP]내용 정리"
 categories:
   - MEMO
 tags:
@@ -10,6 +10,11 @@ tags:
   - markup 
 ---
 
+### 생성자 상속 관련
+* 두개의 개별 클래스(A, B)가 있을때 A클래스의 내용을 B에서 사용하고 싶을때는 
+.hpp 파일에 선언을 하고 생성자 상속을 받아서 사용할 수 있다. 
+
+### 
 Nested and mixed lists are an interesting beast. It's a corner case to make sure that
 
 * Lists within lists do not break the ordered list numbering order
