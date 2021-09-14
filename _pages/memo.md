@@ -3,7 +3,7 @@ title: " MEMO: GIT, C++, "
 permalink: /categories/MEMO
 author_profile: true
 sidebar:
-  nav: "main"
+  nav: "main_sidebar"
 layout: category
 taxonomy: MEMO
 ---

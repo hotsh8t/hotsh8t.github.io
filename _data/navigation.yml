@@ -32,9 +32,52 @@ main:
      url: /categories/Edge Case     
 
 main_sidebar:
-   - title: "ROS"
+   - title: "자율주행"
      children:
-      - title: "자율주행"
-        url: /categories/robot-autonomous
-        # url: /docs/quick-start-guide/
-    #  url: /categories/ROS
+      - title: "ROS"
+        url: /categories/ros 
+      - title: "자율주행 알고리즘"
+        url: /categories/robot-autonomous    
+
+   - title: "프로그래밍"
+     children:
+      - title: "C++"
+        url: /categories/ros     
+      - title: "Python"
+        url: /categories/ros
+      - title: "JS(React/React Native)"
+        url: /categories/ros    
+   - title: "데이터"
+     children:
+      - title: "DB"
+        url: /categories/ros     
+      # - title: "Machine Learning"
+      #   url: /categories/ros
+      - title: "Data Science"
+        url: /categories/ros    
+
+   - title: "인프라"
+     children:
+      - title: "AWS"
+        url: /categories/ros     
+      - title: "GIT/GitHub"
+        url: /categories/ros    
+
+   - title: "비즈니스"
+     children:
+      - title: "Business"
+        url: /categories/ros      
+
+   - title: "수업/강의"
+     children:        
+     - title: "react_native"     
+
+  #  - title: "Miscellaneous"
+  #    children:        
+  #    - title: "react_native"     
+  #      url: /about
+  # 위랑 코드가 동일한것 같은데 아래 내용은 에러 발생함
+   - title: "Miscellaneous"
+     children:        
+     - title: "react_native"      
+       url: /about
