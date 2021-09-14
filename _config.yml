@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "개발기록"
+title                    : "YOONGON'S DEV. BLOG"
 title_separator          : "Dev history"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "hotsh8t "
@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "개발노트"
-  # avatar           : "/assets/images/profile/profile.jpg" # path of avatar image
+  avatar           : "/assets/images/profile/profile.jpg" # path of avatar image
   bio              : "Dev. history"
   location         : "Seoul, Korea"
   email            :  
