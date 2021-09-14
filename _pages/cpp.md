@@ -1,12 +1,12 @@
 ---
-title: " 자율주행 포스팅" 
-permalink: /robot-autonomous/
+title: " C++" 
+permalink: /cpp
 author_profile: false
 sidebar:
         nav: "main_sidebar"
 layout: category
 # taxonomy: DL
 ---
- 자율주행 알고리즘
+  딥러닝 관련 포스팅
  
 

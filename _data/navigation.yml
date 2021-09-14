@@ -35,42 +35,44 @@ main_sidebar:
    - title: "자율주행"
      children:
       - title: "ROS"
-        url: /categories/ros 
+        url: /ros/ 
       - title: "자율주행 알고리즘"
-        url: /categories/robot-autonomous    
+        url: /robot-autonomous/
 
    - title: "프로그래밍"
      children:
       - title: "C++"
-        url: /categories/ros     
+        url: /cpp/   
       - title: "Python"
-        url: /categories/ros
+        url: /python/
       - title: "JS(React/React Native)"
-        url: /categories/ros    
+        url: /java-script/   
+
    - title: "데이터"
      children:
       - title: "DB"
-        url: /categories/ros     
+        url: /database/    
       # - title: "Machine Learning"
       #   url: /categories/ros
       - title: "Data Science"
-        url: /categories/ros    
+        url: /data-science/  
 
    - title: "인프라"
      children:
       - title: "AWS"
-        url: /categories/ros     
+        url: /aws/    
       - title: "GIT/GitHub"
-        url: /categories/ros    
+        url: /git-github/  
 
    - title: "비즈니스"
      children:
-      - title: "Business"
-        url: /categories/ros      
+      - title: "Business Thoughs"
+        url: /business-thoughts/      
 
    - title: "수업/강의"
      children:        
-     - title: "react_native"     
+     - title: "Classes"   
+       url: /classes/     
 
   #  - title: "Miscellaneous"
   #    children:        
@@ -79,5 +81,17 @@ main_sidebar:
   # 위랑 코드가 동일한것 같은데 아래 내용은 에러 발생함
    - title: "Miscellaneous"
      children:        
-     - title: "react_native"      
-       url: /about
+     - title: "기타"      
+       url: /miscellaneous/
+
+ds_sidebar:
+   - title: "Data Science"
+     children:
+      - title: "Machine Learning"
+        url: /machine-learning/   
+      - title: "AI Deep Learning"
+        url: /ai-deep-learning/
+      - title: "Social Network Analysis"
+        url: /social-network-analysis/  
+      - title: "논문"
+        url: /papers/         

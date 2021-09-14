@@ -1,6 +1,6 @@
 ---
-title: " Category" 
-permalink: /categories/ETC
+title: " 기타 포스팅" 
+permalink: /miscellaneous/
 author_profile: false
 layout: archive
 taxonomy: ETC

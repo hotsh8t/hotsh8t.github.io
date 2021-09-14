@@ -1,7 +1,7 @@
 ---
 title: " ROS: ROBOT OS"
 layout: category
-permalink: /categories/ROS
+permalink: /ros/
 author_profile: false
 taxonomy: ROS
 ---
