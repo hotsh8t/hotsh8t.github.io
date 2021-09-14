@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "YOONGON'S DEV. BLOG"
+title                    : "데이터와 개발 그리고 비즈니스"
 title_separator          : "Dev history"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "hotsh8t "
@@ -100,7 +100,7 @@ author:
   email            :  
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+      icon: "fas fa-fw fa-envelope-square"  
       # url: mailto:your.name@email.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
