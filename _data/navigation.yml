@@ -1,28 +1,40 @@
 # main links
 main:
+  #  - title: "ROS"
+  #    children:
+  #     - title: "자율주행"
+  #       url: /categories/ROS
+        # url: /docs/quick-start-guide/
+    #  url: /categories/ROS
+  #  - title: "ML"
+  #    url: /categories/ML
+  #  - title: "DS"
+  #    url: /categories/DS
+  #  - title: "DL"
+  #    url: /categories/DL
+  #  - title: "CATEGORY"
+  #    url: /categories/
+  #  - title: "MEMO"
+  #    url: /categories/MEMO
+  #  - title: "Quick-Start Guide"
+  #    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+
+  #  - title: "Sample Posts"
+  #    url: /year-archive/
+  #  - title: "Sample Collections"
+  #    url: /collection-archive/
+ 
+   - title: "About"
+     url: /about/     
+   - title: "Tag"
+     url: /tags/     
+   - title: "Sitemap"
+     url: /categories/Edge Case     
+
+main_sidebar:
    - title: "ROS"
      children:
       - title: "자율주행"
-        url: /categories/ROS
+        url: /categories/robot-autonomous
         # url: /docs/quick-start-guide/
     #  url: /categories/ROS
-   - title: "ML"
-     url: /categories/ML
-   - title: "DS"
-     url: /categories/DS
-   - title: "DL"
-     url: /categories/DL
-   - title: "CATEGORY"
-     url: /categories/
-   - title: "MEMO"
-     url: /categories/MEMO
-   - title: "Quick-Start Guide"
-     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-   - title: "About"
-     url: https://mmistakes.github.io/minimal-mistakes/about/
-   - title: "Sample Posts"
-     url: /year-archive/
-   - title: "Sample Collections"
-     url: /collection-archive/
-   - title: "Sitemap"
-     url: /categories/Edge Case
