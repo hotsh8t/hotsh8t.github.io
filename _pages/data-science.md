@@ -1,6 +1,6 @@
 ---
 title: " DS: DATA SCIENCE"
-permalink: /data-science
+permalink: /data-science/
 author_profile: false
 sidebar:
         nav: "ds_sidebar"

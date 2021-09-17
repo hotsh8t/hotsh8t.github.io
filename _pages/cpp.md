@@ -1,6 +1,6 @@
 ---
 title: " C++" 
-permalink: /cpp
+permalink: /cpp/
 author_profile: false
 sidebar:
         nav: "main_sidebar"

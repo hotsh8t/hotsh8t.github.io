@@ -12,10 +12,10 @@ main:
   #    url: /categories/DS
   #  - title: "DL"
   #    url: /categories/DL
-  #  - title: "CATEGORY"
-  #    url: /categories/
-  #  - title: "MEMO"
-  #    url: /categories/MEMO
+   - title: "CATEGORY"
+     url: /categories/
+   - title: "MEMO"
+     url: /categories/MEMO
   #  - title: "Quick-Start Guide"
   #    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
 
@@ -95,3 +95,10 @@ ds_sidebar:
         url: /social-network-analysis/  
       - title: "논문"
         url: /papers/         
+
+#########################################
+##########categories##########
+#
+
+##########tags##########
+

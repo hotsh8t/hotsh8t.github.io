@@ -93,9 +93,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "개발노트"
-  avatar           : "/assets/images/profile/profile.jpg" # path of avatar image
-  bio              : "Dev. history"
+  name             : "Mostly 개발노트"
+  # avatar           : "  /assets/images/profile/profile.jpg" # path of avatar image
+  # bio              : "Dev. history"
   location         : "Seoul, Korea"
   email            :  
   links:
