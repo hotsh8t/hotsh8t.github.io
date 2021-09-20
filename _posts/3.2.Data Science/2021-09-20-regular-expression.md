@@ -8,11 +8,14 @@ tags:
   - DS
   - RegularExpression
 ---
- 
-
-- 텍스트데이터를 다루기 위해서는 반드시 해야함. 특히 비정형데이터를 다루고 머신러닝하기 위해서는 필수 요소임
 
 # Regular Expression(RegEx)
+
+ 텍스트데이터를 다루기 위해서는 반드시 해야함. 특히 비정형데이터를 다루고 머신러닝하기 위해서는 필수 요소임
+
+참고 [https://regexr.com/](https://regexr.com/)
+
+
 
 
 ### Special characters
