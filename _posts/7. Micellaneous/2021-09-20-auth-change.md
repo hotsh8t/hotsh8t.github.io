@@ -27,3 +27,5 @@ if [ "$1" == "upload" ]
 fi
 
 ```
+
+./config.sh upload 명령
